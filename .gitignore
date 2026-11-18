@@ -1,0 +1,27 @@
+# Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editor / OS / local tooling
+.DS_Store
+.designer/
+.vscode/
+.idea/
+.streamlit/secrets.toml
+
+# Credentials (never commit)
+.env
+*.pem
+*.key
+
+# Temporary outputs from safe saving, and local backups
+data/*.tmp
+data/*.bak
+backups/
+
+# Temporary browser-check artefacts
+.layout_check/
+.probe/

@@ -1,0 +1,4 @@
+region,actual_revenue_inr,planned_net_revenue_inr,achievement_pct,shortfall_inr,status
+North,3499.99,3500.0,100.0,0.01,"Below plan"
+East,0.8,0.8,100.0,0.0,"At or above plan"
+South,200.0,100.0,200.0,-100.0,"At or above plan"

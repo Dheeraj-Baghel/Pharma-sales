@@ -1,0 +1,1001 @@
+transaction_id,date,region,product,sales_rep,channel,units_sold,unit_price,discount_pct,target_revenue,revenue
+TXN-00001,2025-01-01,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,37,185.27,0.13,9981.54,5963.84
+TXN-00002,2025-01-01,Central,Glucobal 500mg,Neha Verma,Distributor,151,97.55,0.19,13898.7,11931.34
+TXN-00003,2025-01-01,North,Infecta-Guard 250mg,Aarav Mehta,Clinic,11,142.7,0.02,2681.26,1538.31
+TXN-00004,2025-01-01,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,61,35.42,0.02,2232.13,2117.41
+TXN-00005,2025-01-01,South,Neurocalm 50mg,Karthik Iyer,Hospital,51,302.45,0.14,14441.24,13265.46
+TXN-00006,2025-01-02,Central,Infecta-Guard 250mg,Vikram Tiwari,Distributor,78,140.8,0.14,16068.03,9444.86
+TXN-00007,2025-01-02,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,24,188.53,0.02,5589.23,4434.23
+TXN-00008,2025-01-02,North,Glucobal 500mg,Aarav Mehta,Distributor,172,95.8,0.15,18561.26,14005.96
+TXN-00009,2025-01-02,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,30,181.79,0.02,5741.11,5344.63
+TXN-00010,2025-01-02,South,Glucobal 500mg,Lakshmi Nair,Distributor,191,92.42,0.17,18311.51,14651.34
+TXN-00011,2025-01-02,West,Neurocalm 50mg,Priya Joshi,Distributor,105,305.09,0.13,29081.02,27869.97
+TXN-00012,2025-01-03,Central,Glucobal 500mg,Vikram Tiwari,Hospital,55,94.25,0.06,6714.93,4872.72
+TXN-00013,2025-01-03,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,45,93.33,0.02,2990.49,4115.85
+TXN-00014,2025-01-03,West,Respiclear Inhaler,Priya Joshi,Retail Pharmacy,16,422.24,0.01,6456.65,6688.28
+TXN-00015,2025-01-04,North,Neurocalm 50mg,Aarav Mehta,Clinic,13,309.05,0.05,4017.64,3816.77
+TXN-00016,2025-01-04,West,Neurocalm 50mg,Rohan Desai,Hospital,46,304.94,0.15,13908.01,11923.15
+TXN-00017,2025-01-05,East,Glucobal 500mg,Ananya Das,Clinic,24,97.66,0.05,1728.63,2226.65
+TXN-00018,2025-01-05,East,Neurocalm 50mg,Arjun Bose,Retail Pharmacy,12,300.96,0.02,5121.94,3539.29
+TXN-00019,2025-01-05,North,Neurocalm 50mg,Aarav Mehta,Hospital,50,309.76,0.09,16611.49,14094.08
+TXN-00020,2025-01-05,West,Glucobal 500mg,Priya Joshi,Distributor,225,94.85,0.18,16934.74,17499.82
+TXN-00021,2025-01-06,Central,Respiclear Inhaler,Neha Verma,Clinic,7,427.99,0.03,2984.82,2906.05
+TXN-00022,2025-01-06,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,19,310.98,0.0,6650.02,5908.62
+TXN-00023,2025-01-06,South,Cardiozen 10mg,Karthik Iyer,Hospital,59,179.85,0.1,13419.76,9550.04
+TXN-00024,2025-01-06,West,Hydralyte-Plus ORS,Rohan Desai,Distributor,214,34.98,0.16,10038.03,6288.0
+TXN-00025,2025-01-08,Central,Respiclear Inhaler,Vikram Tiwari,Retail Pharmacy,13,414.84,0.04,4848.45,5177.2
+TXN-00026,2025-01-08,North,Cardiozen 10mg,Simran Kaur,Hospital,55,190.22,0.08,13761.04,9625.13
+TXN-00027,2025-01-09,East,Cardiozen 10mg,Ananya Das,Distributor,85,185.01,0.12,20037.38,13838.75
+TXN-00028,2025-01-09,North,Glucobal 500mg,Aarav Mehta,Hospital,101,97.1,0.06,9447.73,9218.67
+TXN-00029,2025-01-10,East,Glucobal 500mg,Ananya Das,Hospital,65,92.75,0.05,7107.86,5727.31
+TXN-00030,2025-01-10,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,29,184.14,0.02,5858.69,5233.26
+TXN-00031,2025-01-10,South,Glucobal 500mg,Lakshmi Nair,Hospital,114,93.63,0.07,9127.03,9926.65
+TXN-00032,2025-01-10,South,Hydralyte-Plus ORS,Lakshmi Nair,Hospital,129,34.06,0.06,5776.37,4130.12
+TXN-00033,2025-01-10,South,Respiclear Inhaler,Karthik Iyer,Distributor,111,410.66,0.13,34821.31,39657.44
+TXN-00034,2025-01-10,West,Infecta-Guard 250mg,Priya Joshi,Distributor,130,140.41,0.15,22034.57,15515.3
+TXN-00035,2025-01-11,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,291,35.36,0.19,11932.63,8334.71
+TXN-00036,2025-01-11,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,20,416.08,0.06,7032.86,7822.3
+TXN-00037,2025-01-11,South,Infecta-Guard 250mg,Lakshmi Nair,Distributor,95,143.51,0.14,23034.2,11724.77
+TXN-00038,2025-01-12,Central,Neurocalm 50mg,Neha Verma,Retail Pharmacy,14,318.22,0.02,4523.07,4365.98
+TXN-00039,2025-01-12,East,Neurocalm 50mg,Arjun Bose,Clinic,9,311.21,0.03,2838.63,2716.86
+TXN-00040,2025-01-12,West,Respiclear Inhaler,Rohan Desai,Distributor,75,413.01,0.16,31121.41,26019.63
+TXN-00041,2025-01-13,Central,Glucobal 500mg,Vikram Tiwari,Distributor,123,93.96,0.15,14332.92,9823.52
+TXN-00042,2025-01-13,North,Glucobal 500mg,Simran Kaur,Clinic,23,94.72,0.0,2295.61,2178.56
+TXN-00043,2025-01-13,North,Glucobal 500mg,Aarav Mehta,Hospital,99,95.59,0.12,10195.47,8327.8
+TXN-00044,2025-01-13,North,Glucobal 500mg,Aarav Mehta,Hospital,102,97.28,0.11,9673.22,8831.08
+TXN-00045,2025-01-13,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,23,426.38,0.04,6897.57,9414.47
+TXN-00046,2025-01-13,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,60,142.52,0.13,10557.97,7439.54
+TXN-00047,2025-01-14,East,Cardiozen 10mg,Ananya Das,Hospital,47,188.76,0.12,9988.91,7807.11
+TXN-00048,2025-01-14,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,41,96.94,0.05,4187.43,3775.81
+TXN-00049,2025-01-14,South,Glucobal 500mg,Lakshmi Nair,Hospital,108,97.7,0.11,9928.35,9390.92
+TXN-00050,2025-01-14,West,Infecta-Guard 250mg,Rohan Desai,Retail Pharmacy,16,138.76,0.01,4615.11,2197.96
+TXN-00051,2025-01-14,West,Respiclear Inhaler,Priya Joshi,Hospital,57,418.5,0.13,15874.98,20753.42
+TXN-00052,2025-01-15,Central,Hydralyte-Plus ORS,Vikram Tiwari,Hospital,86,35.9,0.09,3752.1,2809.53
+TXN-00053,2025-01-15,Central,Hydralyte-Plus ORS,Vikram Tiwari,Hospital,74,35.66,0.09,3826.08,2401.34
+TXN-00054,2025-01-15,North,Respiclear Inhaler,Simran Kaur,Clinic,11,428.48,0.01,4350.64,4666.15
+TXN-00055,2025-01-15,West,Respiclear Inhaler,Priya Joshi,Hospital,48,431.72,0.12,16401.12,18235.85
+TXN-00056,2025-01-16,North,Hydralyte-Plus ORS,Simran Kaur,Clinic,29,34.47,0.05,1374.01,949.65
+TXN-00057,2025-01-16,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,55,34.5,0.01,2447.01,1878.52
+TXN-00058,2025-01-17,West,Hydralyte-Plus ORS,Rohan Desai,Retail Pharmacy,42,34.13,0.05,2283.15,1361.79
+TXN-00059,2025-01-18,Central,Cardiozen 10mg,Vikram Tiwari,Distributor,82,189.58,0.16,20113.78,13058.27
+TXN-00060,2025-01-18,East,Cardiozen 10mg,Ananya Das,Clinic,10,190.35,0.03,2501.1,1846.4
+TXN-00061,2025-01-18,East,Neurocalm 50mg,Ananya Das,Hospital,35,304.21,0.14,12368.3,9156.72
+TXN-00062,2025-01-19,East,Infecta-Guard 250mg,Ananya Das,Clinic,20,140.43,0.04,2032.42,2696.26
+TXN-00063,2025-01-20,North,Neurocalm 50mg,Aarav Mehta,Retail Pharmacy,14,308.3,0.06,6557.25,4057.23
+TXN-00064,2025-01-20,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,50,137.03,0.11,11275.97,6097.84
+TXN-00065,2025-01-20,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,18,421.29,0.06,6665.55,7128.23
+TXN-00066,2025-01-21,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,134,34.67,0.09,6105.82,4227.66
+TXN-00067,2025-01-21,North,Respiclear Inhaler,Aarav Mehta,Hospital,60,410.3,0.11,17304.45,21910.02
+TXN-00068,2025-01-21,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,15,313.63,0.05,6404.94,4469.23
+TXN-00069,2025-01-22,East,Infecta-Guard 250mg,Ananya Das,Hospital,42,136.92,0.08,7955.84,5290.59
+TXN-00070,2025-01-22,West,Cardiozen 10mg,Priya Joshi,Hospital,51,187.82,0.09,13171.75,8716.73
+TXN-00071,2025-01-23,Central,Glucobal 500mg,Neha Verma,Hospital,71,96.55,0.08,6978.54,6306.65
+TXN-00072,2025-01-23,East,Hydralyte-Plus ORS,Ananya Das,Clinic,28,35.66,0.0,1083.49,998.48
+TXN-00073,2025-01-23,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,30,188.19,0.02,5822.19,5532.79
+TXN-00074,2025-01-24,Central,Glucobal 500mg,Vikram Tiwari,Hospital,66,93.48,0.11,7321.71,5491.02
+TXN-00075,2025-01-24,Central,Neurocalm 50mg,Vikram Tiwari,Distributor,53,318.11,0.16,21444.87,14162.26
+TXN-00076,2025-01-24,Central,Respiclear Inhaler,Neha Verma,Hospital,38,418.56,0.12,11798.07,13996.65
+TXN-00077,2025-01-24,East,Hydralyte-Plus ORS,Arjun Bose,Distributor,209,34.85,0.14,8485.86,6263.94
+TXN-00078,2025-01-24,North,Infecta-Guard 250mg,Aarav Mehta,Hospital,64,142.76,0.1,11436.97,8222.98
+TXN-00079,2025-01-24,West,Cardiozen 10mg,Priya Joshi,Distributor,101,189.81,0.12,25145.0,16870.31
+TXN-00080,2025-01-24,West,Cardiozen 10mg,Rohan Desai,Hospital,45,180.83,0.08,12907.5,7486.36
+TXN-00081,2025-01-24,West,Respiclear Inhaler,Priya Joshi,Distributor,104,417.2,0.19,31910.57,35144.93
+TXN-00082,2025-01-25,East,Glucobal 500mg,Ananya Das,Hospital,77,95.83,0.07,6847.64,6862.39
+TXN-00083,2025-01-25,South,Glucobal 500mg,Lakshmi Nair,Distributor,197,95.26,0.11,19394.89,16701.94
+TXN-00084,2025-01-25,West,Neurocalm 50mg,Priya Joshi,Hospital,62,302.06,0.1,14173.61,16854.95
+TXN-00085,2025-01-26,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,35,184.06,0.05,5647.25,6120.0
+TXN-00086,2025-01-26,South,Glucobal 500mg,Lakshmi Nair,Hospital,82,93.13,0.09,10059.62,6949.36
+TXN-00087,2025-01-26,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,25,92.98,0.05,3973.69,2208.28
+TXN-00088,2025-01-26,West,Infecta-Guard 250mg,Rohan Desai,Hospital,52,142.82,0.08,10457.51,6832.51
+TXN-00089,2025-01-26,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,17,300.84,0.03,6222.17,4960.85
+TXN-00090,2025-01-26,West,Respiclear Inhaler,Rohan Desai,Hospital,46,424.01,0.1,15191.61,17554.01
+TXN-00091,2025-01-27,North,Glucobal 500mg,Aarav Mehta,Distributor,200,95.06,0.14,20234.51,16350.32
+TXN-00092,2025-01-27,South,Cardiozen 10mg,Karthik Iyer,Clinic,17,188.64,0.04,3310.4,3078.6
+TXN-00093,2025-01-27,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,26,429.68,0.07,6873.42,10389.66
+TXN-00094,2025-01-28,East,Glucobal 500mg,Arjun Bose,Clinic,15,96.69,0.03,1725.13,1406.84
+TXN-00095,2025-01-28,North,Hydralyte-Plus ORS,Aarav Mehta,Retail Pharmacy,41,35.39,0.03,2235.77,1407.46
+TXN-00096,2025-01-28,West,Cardiozen 10mg,Priya Joshi,Retail Pharmacy,16,181.81,0.05,5459.43,2763.51
+TXN-00097,2025-01-28,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,35,95.28,0.0,3904.19,3334.8
+TXN-00098,2025-01-28,West,Infecta-Guard 250mg,Priya Joshi,Hospital,51,136.88,0.07,10358.27,6492.22
+TXN-00099,2025-01-29,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,21,180.25,0.0,4471.78,3785.25
+TXN-00100,2025-01-29,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,52,35.48,0.04,2127.43,1771.16
+TXN-00101,2025-01-29,South,Hydralyte-Plus ORS,Karthik Iyer,Distributor,279,35.48,0.12,10848.69,8711.05
+TXN-00102,2025-01-30,Central,Glucobal 500mg,Neha Verma,Retail Pharmacy,28,95.18,0.0,2704.84,2665.04
+TXN-00103,2025-01-30,Central,Neurocalm 50mg,Neha Verma,Retail Pharmacy,21,310.27,0.07,4872.36,6059.57
+TXN-00104,2025-01-30,North,Glucobal 500mg,Aarav Mehta,Hospital,93,97.23,0.1,9322.32,8138.15
+TXN-00105,2025-01-31,Central,Hydralyte-Plus ORS,Vikram Tiwari,Distributor,160,34.63,0.12,8122.52,4875.9
+TXN-00106,2025-01-31,South,Cardiozen 10mg,Karthik Iyer,Hospital,59,183.13,0.09,13351.18,9832.25
+TXN-00107,2025-02-01,East,Neurocalm 50mg,Ananya Das,Clinic,6,307.15,0.02,2956.81,1806.04
+TXN-00108,2025-02-01,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,17,188.15,0.07,6057.08,2974.65
+TXN-00109,2025-02-01,South,Hydralyte-Plus ORS,Karthik Iyer,Hospital,150,35.83,0.05,5479.92,5105.77
+TXN-00110,2025-02-01,South,Neurocalm 50mg,Karthik Iyer,Hospital,43,309.59,0.09,14598.33,12114.26
+TXN-00111,2025-02-02,Central,Glucobal 500mg,Neha Verma,Distributor,131,96.1,0.14,14306.58,10826.63
+TXN-00112,2025-02-02,North,Cardiozen 10mg,Simran Kaur,Hospital,70,187.7,0.14,13911.29,11299.54
+TXN-00113,2025-02-03,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,41,95.58,0.06,4033.39,3683.65
+TXN-00114,2025-02-03,North,Respiclear Inhaler,Aarav Mehta,Distributor,105,426.89,0.1,33919.89,40341.1
+TXN-00115,2025-02-03,West,Cardiozen 10mg,Priya Joshi,Hospital,53,186.09,0.07,13078.02,9172.38
+TXN-00116,2025-02-04,Central,Cardiozen 10mg,Neha Verma,Clinic,7,183.14,0.01,2408.95,1269.16
+TXN-00117,2025-02-04,Central,Infecta-Guard 250mg,Neha Verma,Distributor,56,143.78,0.15,15024.01,6843.93
+TXN-00118,2025-02-04,West,Respiclear Inhaler,Priya Joshi,Hospital,62,431.96,0.07,16131.43,24906.81
+TXN-00119,2025-02-05,East,Cardiozen 10mg,Ananya Das,Clinic,16,186.32,0.0,2430.06,2981.12
+TXN-00120,2025-02-05,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,31,97.26,0.07,2904.34,2804.01
+TXN-00121,2025-02-05,East,Neurocalm 50mg,Ananya Das,Retail Pharmacy,20,310.46,0.05,4748.32,5898.74
+TXN-00122,2025-02-05,South,Glucobal 500mg,Karthik Iyer,Hospital,103,94.89,0.14,9450.67,8405.36
+TXN-00123,2025-02-05,West,Hydralyte-Plus ORS,Rohan Desai,Hospital,111,35.16,0.12,4978.01,3434.43
+TXN-00124,2025-02-06,Central,Cardiozen 10mg,Neha Verma,Hospital,54,189.3,0.11,9581.63,9097.76
+TXN-00125,2025-02-06,South,Respiclear Inhaler,Lakshmi Nair,Hospital,69,419.99,0.1,15616.09,26081.38
+TXN-00126,2025-02-07,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,59,35.44,0.01,2205.21,2070.05
+TXN-00127,2025-02-07,South,Neurocalm 50mg,Karthik Iyer,Hospital,47,306.91,0.07,14881.67,13415.04
+TXN-00128,2025-02-07,West,Respiclear Inhaler,Priya Joshi,Distributor,92,409.75,0.14,29182.08,32419.42
+TXN-00129,2025-02-07,West,Respiclear Inhaler,Priya Joshi,Distributor,90,417.52,0.15,31413.82,31940.28
+TXN-00130,2025-02-07,West,Respiclear Inhaler,Priya Joshi,Retail Pharmacy,20,426.27,0.08,6409.38,7843.37
+TXN-00131,2025-02-08,South,Glucobal 500mg,Lakshmi Nair,Hospital,90,92.77,0.06,9636.72,7848.34
+TXN-00132,2025-02-09,East,Cardiozen 10mg,Ananya Das,Hospital,42,183.28,0.07,10377.44,7158.92
+TXN-00133,2025-02-10,East,Cardiozen 10mg,Arjun Bose,Retail Pharmacy,12,184.52,0.06,4283.27,2081.39
+TXN-00134,2025-02-10,North,Neurocalm 50mg,Aarav Mehta,Clinic,15,312.91,0.04,3776.56,4505.9
+TXN-00135,2025-02-10,South,Hydralyte-Plus ORS,Karthik Iyer,Clinic,33,35.02,0.03,1297.35,1120.99
+TXN-00136,2025-02-11,North,Glucobal 500mg,Aarav Mehta,Distributor,171,93.12,0.14,19694.88,13694.23
+TXN-00137,2025-02-11,South,Respiclear Inhaler,Lakshmi Nair,Distributor,98,417.76,0.14,30990.96,35208.81
+TXN-00138,2025-02-11,West,Cardiozen 10mg,Priya Joshi,Clinic,12,185.39,0.0,2914.73,2224.68
+TXN-00139,2025-02-12,South,Hydralyte-Plus ORS,Lakshmi Nair,Distributor,247,35.39,0.14,10469.66,7517.54
+TXN-00140,2025-02-12,West,Glucobal 500mg,Rohan Desai,Distributor,158,93.98,0.16,19052.79,12473.03
+TXN-00141,2025-02-13,North,Infecta-Guard 250mg,Aarav Mehta,Retail Pharmacy,31,141.65,0.06,4552.98,4127.68
+TXN-00142,2025-02-14,East,Cardiozen 10mg,Ananya Das,Distributor,105,181.44,0.18,19293.17,15621.98
+TXN-00143,2025-02-15,East,Cardiozen 10mg,Arjun Bose,Hospital,44,183.14,0.09,10655.89,7332.93
+TXN-00144,2025-02-15,West,Cardiozen 10mg,Priya Joshi,Retail Pharmacy,14,188.04,0.05,5367.53,2500.93
+TXN-00145,2025-02-15,West,Infecta-Guard 250mg,Priya Joshi,Hospital,72,141.27,0.09,10886.13,9256.01
+TXN-00146,2025-02-16,East,Respiclear Inhaler,Arjun Bose,Clinic,7,420.03,0.04,3089.27,2822.6
+TXN-00147,2025-02-17,Central,Glucobal 500mg,Neha Verma,Hospital,67,97.15,0.07,6732.75,6053.42
+TXN-00148,2025-02-17,Central,Glucobal 500mg,Vikram Tiwari,Hospital,56,95.47,0.09,6829.38,4865.15
+TXN-00149,2025-02-17,North,Glucobal 500mg,Simran Kaur,Distributor,177,95.79,0.2,19713.51,13563.86
+TXN-00150,2025-02-17,West,Neurocalm 50mg,Rohan Desai,Distributor,88,312.38,0.15,27469.49,23366.02
+TXN-00151,2025-02-18,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,37,92.64,0.07,4145.36,3187.74
+TXN-00152,2025-02-18,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,35,97.0,0.02,4082.16,3327.1
+TXN-00153,2025-02-18,North,Respiclear Inhaler,Simran Kaur,Clinic,11,410.17,0.03,4094.9,4376.51
+TXN-00154,2025-02-18,South,Respiclear Inhaler,Karthik Iyer,Clinic,18,427.85,0.0,3812.24,7701.3
+TXN-00155,2025-02-18,West,Glucobal 500mg,Rohan Desai,Hospital,101,95.35,0.14,8583.63,8282.1
+TXN-00156,2025-02-18,West,Respiclear Inhaler,Priya Joshi,Retail Pharmacy,25,407.97,0.01,6423.02,10097.26
+TXN-00157,2025-02-19,Central,Cardiozen 10mg,Neha Verma,Clinic,8,181.18,0.02,2457.39,1420.45
+TXN-00158,2025-02-19,North,Neurocalm 50mg,Simran Kaur,Hospital,38,300.96,0.13,16993.3,9949.74
+TXN-00159,2025-02-19,West,Hydralyte-Plus ORS,Priya Joshi,Retail Pharmacy,59,35.67,0.02,2259.57,2062.44
+TXN-00160,2025-02-20,North,Neurocalm 50mg,Aarav Mehta,Hospital,52,317.58,0.06,15985.75,15523.31
+TXN-00161,2025-02-20,South,Neurocalm 50mg,Karthik Iyer,Distributor,91,306.99,0.16,31151.35,23466.32
+TXN-00162,2025-02-20,West,Cardiozen 10mg,Rohan Desai,Hospital,45,185.44,0.13,12999.6,7259.98
+TXN-00163,2025-02-20,West,Hydralyte-Plus ORS,Priya Joshi,Clinic,32,35.69,0.05,1333.89,1084.98
+TXN-00164,2025-02-20,West,Neurocalm 50mg,Rohan Desai,Clinic,7,309.26,0.05,3677.12,2056.58
+TXN-00165,2025-02-21,East,Infecta-Guard 250mg,Ananya Das,Clinic,11,143.09,0.04,2255.74,1511.03
+TXN-00166,2025-02-21,East,Respiclear Inhaler,Arjun Bose,Retail Pharmacy,22,409.83,0.01,5054.4,8926.1
+TXN-00167,2025-02-21,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,45,93.69,0.06,4156.74,3963.09
+TXN-00168,2025-02-21,South,Glucobal 500mg,Karthik Iyer,Distributor,219,94.0,0.15,18489.57,17498.1
+TXN-00169,2025-02-22,East,Cardiozen 10mg,Arjun Bose,Retail Pharmacy,24,180.21,0.07,4403.27,4022.29
+TXN-00170,2025-02-22,East,Glucobal 500mg,Ananya Das,Hospital,66,97.83,0.06,6885.08,6069.37
+TXN-00171,2025-02-22,North,Cardiozen 10mg,Aarav Mehta,Distributor,153,181.17,0.11,27028.37,24669.92
+TXN-00172,2025-02-22,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,55,138.54,0.12,10226.26,6705.34
+TXN-00173,2025-02-22,South,Respiclear Inhaler,Lakshmi Nair,Retail Pharmacy,22,421.43,0.02,7282.7,9086.03
+TXN-00174,2025-02-23,Central,Neurocalm 50mg,Neha Verma,Distributor,76,304.91,0.13,21258.44,20160.65
+TXN-00175,2025-02-23,North,Glucobal 500mg,Aarav Mehta,Distributor,180,92.71,0.11,19676.9,14852.14
+TXN-00176,2025-02-23,West,Respiclear Inhaler,Priya Joshi,Clinic,13,430.18,0.04,3669.7,5368.65
+TXN-00177,2025-02-24,North,Respiclear Inhaler,Simran Kaur,Hospital,62,421.71,0.06,17287.61,24577.26
+TXN-00178,2025-02-24,South,Respiclear Inhaler,Lakshmi Nair,Hospital,67,407.85,0.09,17381.07,24866.61
+TXN-00179,2025-02-25,East,Hydralyte-Plus ORS,Ananya Das,Clinic,24,35.13,0.02,1115.38,826.26
+TXN-00180,2025-02-25,East,Infecta-Guard 250mg,Arjun Bose,Retail Pharmacy,16,142.46,0.06,3712.46,2142.6
+TXN-00181,2025-02-25,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,19,317.61,0.05,5952.04,5732.86
+TXN-00182,2025-02-26,Central,Glucobal 500mg,Vikram Tiwari,Hospital,62,95.31,0.08,6960.13,5436.48
+TXN-00183,2025-02-26,West,Hydralyte-Plus ORS,Rohan Desai,Hospital,99,35.58,0.14,5030.17,3029.28
+TXN-00184,2025-02-27,East,Cardiozen 10mg,Ananya Das,Hospital,41,182.48,0.09,9896.32,6808.33
+TXN-00185,2025-02-27,North,Infecta-Guard 250mg,Aarav Mehta,Hospital,65,140.18,0.09,11581.99,8291.65
+TXN-00186,2025-02-27,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,16,315.46,0.06,6094.95,4744.52
+TXN-00187,2025-02-28,Central,Infecta-Guard 250mg,Vikram Tiwari,Hospital,39,138.59,0.13,7473.71,4702.36
+TXN-00188,2025-02-28,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,19,183.5,0.05,5564.15,3312.18
+TXN-00189,2025-02-28,West,Infecta-Guard 250mg,Priya Joshi,Retail Pharmacy,27,141.74,0.07,4384.17,3559.09
+TXN-00190,2025-03-01,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,43,95.37,0.03,3658.1,3977.88
+TXN-00191,2025-03-01,South,Infecta-Guard 250mg,Lakshmi Nair,Clinic,14,137.06,0.03,2770.71,1861.27
+TXN-00192,2025-03-01,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,34,97.58,0.01,3853.57,3284.54
+TXN-00193,2025-03-02,Central,Infecta-Guard 250mg,Vikram Tiwari,Retail Pharmacy,21,139.35,0.03,3169.63,2838.56
+TXN-00194,2025-03-02,East,Cardiozen 10mg,Arjun Bose,Hospital,44,183.94,0.1,10085.37,7284.02
+TXN-00195,2025-03-03,North,Hydralyte-Plus ORS,Simran Kaur,Clinic,34,34.24,0.0,1468.6,1164.16
+TXN-00196,2025-03-03,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,44,95.02,0.01,4023.0,4139.07
+TXN-00197,2025-03-04,South,Infecta-Guard 250mg,Karthik Iyer,Distributor,118,136.25,0.13,22431.19,13987.42
+TXN-00198,2025-03-05,East,Glucobal 500mg,Ananya Das,Retail Pharmacy,34,96.87,0.03,3058.68,3194.77
+TXN-00199,2025-03-05,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,15,429.88,0.05,5521.57,6125.79
+TXN-00200,2025-03-05,North,Cardiozen 10mg,Aarav Mehta,Distributor,130,180.13,0.17,27463.79,19436.03
+TXN-00201,2025-03-05,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,65,35.74,0.06,2498.41,2183.71
+TXN-00202,2025-03-05,North,Neurocalm 50mg,Aarav Mehta,Retail Pharmacy,17,303.41,0.05,6653.94,4900.07
+TXN-00203,2025-03-05,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,11,426.35,0.03,6939.52,4549.15
+TXN-00204,2025-03-05,South,Neurocalm 50mg,Karthik Iyer,Hospital,58,305.21,0.13,15914.3,15400.9
+TXN-00205,2025-03-05,West,Infecta-Guard 250mg,Rohan Desai,Distributor,95,138.58,0.18,22011.62,10795.38
+TXN-00206,2025-03-06,East,Neurocalm 50mg,Arjun Bose,Clinic,9,313.62,0.01,2909.87,2794.35
+TXN-00207,2025-03-06,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,18,414.33,0.08,6892.54,6861.3
+TXN-00208,2025-03-07,Central,Respiclear Inhaler,Neha Verma,Distributor,44,424.17,0.14,23577.95,16050.59
+TXN-00209,2025-03-07,East,Glucobal 500mg,Ananya Das,Retail Pharmacy,40,96.39,0.04,3088.41,3701.38
+TXN-00210,2025-03-07,East,Neurocalm 50mg,Arjun Bose,Hospital,52,301.25,0.08,12243.11,14411.8
+TXN-00211,2025-03-08,West,Infecta-Guard 250mg,Priya Joshi,Retail Pharmacy,20,138.61,0.01,4174.94,2744.48
+TXN-00212,2025-03-09,North,Infecta-Guard 250mg,Simran Kaur,Hospital,52,139.48,0.11,10847.09,6455.13
+TXN-00213,2025-03-09,South,Infecta-Guard 250mg,Karthik Iyer,Distributor,124,136.48,0.15,20414.05,14384.99
+TXN-00214,2025-03-09,West,Glucobal 500mg,Priya Joshi,Clinic,17,95.65,0.04,2200.15,1561.01
+TXN-00215,2025-03-10,East,Neurocalm 50mg,Ananya Das,Retail Pharmacy,19,305.58,0.05,5033.84,5515.72
+TXN-00216,2025-03-10,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,10,427.03,0.02,4961.46,4184.89
+TXN-00217,2025-03-10,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,50,96.93,0.04,4226.37,4652.64
+TXN-00218,2025-03-10,South,Cardiozen 10mg,Lakshmi Nair,Distributor,143,186.67,0.19,24697.14,21621.99
+TXN-00219,2025-03-10,South,Neurocalm 50mg,Karthik Iyer,Hospital,57,308.02,0.06,14835.21,16503.71
+TXN-00220,2025-03-10,West,Hydralyte-Plus ORS,Priya Joshi,Retail Pharmacy,71,35.5,0.07,2210.81,2344.06
+TXN-00221,2025-03-10,West,Neurocalm 50mg,Priya Joshi,Distributor,106,302.68,0.17,27568.4,26629.79
+TXN-00222,2025-03-11,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,22,187.49,0.05,5468.63,3918.54
+TXN-00223,2025-03-11,West,Neurocalm 50mg,Priya Joshi,Hospital,37,313.87,0.1,14795.89,10451.87
+TXN-00224,2025-03-12,Central,Hydralyte-Plus ORS,Neha Verma,Hospital,96,35.1,0.08,4182.72,3100.03
+TXN-00225,2025-03-12,Central,Hydralyte-Plus ORS,Vikram Tiwari,Retail Pharmacy,34,35.57,0.03,1686.11,1173.1
+TXN-00226,2025-03-12,East,Glucobal 500mg,Ananya Das,Hospital,80,95.89,0.12,7014.79,6750.66
+TXN-00227,2025-03-13,East,Infecta-Guard 250mg,Arjun Bose,Retail Pharmacy,19,139.92,0.07,3383.27,2472.39
+TXN-00228,2025-03-13,East,Neurocalm 50mg,Ananya Das,Hospital,30,303.6,0.12,12588.33,8015.04
+TXN-00229,2025-03-13,South,Neurocalm 50mg,Lakshmi Nair,Retail Pharmacy,23,304.11,0.08,6834.56,6434.97
+TXN-00230,2025-03-13,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,36,93.3,0.06,3845.92,3157.27
+TXN-00231,2025-03-14,Central,Infecta-Guard 250mg,Neha Verma,Retail Pharmacy,15,138.83,0.01,3175.79,2061.63
+TXN-00232,2025-03-14,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,16,183.04,0.05,4297.92,2782.21
+TXN-00233,2025-03-14,West,Infecta-Guard 250mg,Priya Joshi,Clinic,14,140.23,0.05,2445.55,1865.06
+TXN-00234,2025-03-15,East,Hydralyte-Plus ORS,Arjun Bose,Clinic,37,34.27,0.0,1078.04,1267.99
+TXN-00235,2025-03-15,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,13,307.29,0.04,5886.64,3834.98
+TXN-00236,2025-03-15,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,23,302.82,0.07,6468.59,6477.32
+TXN-00237,2025-03-16,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,30,182.09,0.07,6092.74,5080.31
+TXN-00238,2025-03-17,Central,Glucobal 500mg,Neha Verma,Hospital,62,93.37,0.07,6885.57,5383.71
+TXN-00239,2025-03-17,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,33,93.65,0.01,4357.03,3059.55
+TXN-00240,2025-03-18,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,145,35.18,0.15,6012.12,4335.94
+TXN-00241,2025-03-18,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,28,95.62,0.01,3953.0,2650.59
+TXN-00242,2025-03-19,South,Neurocalm 50mg,Lakshmi Nair,Retail Pharmacy,19,310.66,0.08,6834.87,5430.34
+TXN-00243,2025-03-20,South,Glucobal 500mg,Karthik Iyer,Distributor,220,95.0,0.18,18261.42,17138.0
+TXN-00244,2025-03-20,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,60,141.6,0.06,10338.09,7986.24
+TXN-00245,2025-03-21,North,Infecta-Guard 250mg,Aarav Mehta,Hospital,74,137.53,0.11,11350.45,9057.73
+TXN-00246,2025-03-22,North,Neurocalm 50mg,Simran Kaur,Clinic,7,308.45,0.04,4238.53,2072.78
+TXN-00247,2025-03-23,Central,Neurocalm 50mg,Neha Verma,Hospital,30,311.78,0.14,11002.85,8043.92
+TXN-00248,2025-03-23,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,337,35.49,0.2,11978.07,9568.1
+TXN-00249,2025-03-24,North,Cardiozen 10mg,Aarav Mehta,Clinic,12,180.03,0.04,3263.37,2073.95
+TXN-00250,2025-03-25,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,11,419.85,0.01,6859.03,4572.17
+TXN-00251,2025-03-25,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,38,92.26,0.01,3840.08,3470.82
+TXN-00252,2025-03-26,East,Neurocalm 50mg,Ananya Das,Hospital,39,317.8,0.06,12111.46,11650.55
+TXN-00253,2025-03-26,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,30,184.19,0.04,5476.16,5304.67
+TXN-00254,2025-03-26,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,39,188.63,0.03,5497.6,7135.87
+TXN-00255,2025-03-26,West,Respiclear Inhaler,Priya Joshi,Clinic,8,411.35,0.03,3835.59,3192.08
+TXN-00256,2025-03-27,Central,Cardiozen 10mg,Vikram Tiwari,Distributor,74,181.18,0.15,18586.91,11396.22
+TXN-00257,2025-03-27,East,Respiclear Inhaler,Arjun Bose,Retail Pharmacy,17,414.37,0.0,5509.46,7044.29
+TXN-00258,2025-03-27,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,23,184.85,0.05,5421.32,4038.97
+TXN-00259,2025-03-28,Central,Neurocalm 50mg,Vikram Tiwari,Hospital,20,315.77,0.12,11896.19,5557.55
+TXN-00260,2025-03-28,Central,Respiclear Inhaler,Neha Verma,Hospital,29,417.48,0.06,11407.86,11380.5
+TXN-00261,2025-03-28,East,Neurocalm 50mg,Arjun Bose,Retail Pharmacy,16,311.74,0.0,4635.73,4987.84
+TXN-00262,2025-03-29,East,Cardiozen 10mg,Arjun Bose,Clinic,8,188.31,0.04,2365.62,1446.22
+TXN-00263,2025-03-29,North,Infecta-Guard 250mg,Simran Kaur,Clinic,13,140.78,0.02,2857.4,1793.54
+TXN-00264,2025-03-30,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,73,34.41,0.05,2409.57,2386.33
+TXN-00265,2025-03-30,West,Infecta-Guard 250mg,Priya Joshi,Hospital,52,143.13,0.14,10983.83,6400.77
+TXN-00266,2025-03-30,West,Respiclear Inhaler,Priya Joshi,Distributor,86,430.57,0.18,30997.27,30363.8
+TXN-00267,2025-03-31,Central,Cardiozen 10mg,Vikram Tiwari,Distributor,71,182.56,0.19,18815.9,10499.03
+TXN-00268,2025-03-31,North,Neurocalm 50mg,Aarav Mehta,Retail Pharmacy,31,308.39,0.03,6815.5,9273.29
+TXN-00269,2025-04-01,Central,Glucobal 500mg,Neha Verma,Retail Pharmacy,25,95.34,0.05,2850.49,2264.32
+TXN-00270,2025-04-01,East,Glucobal 500mg,Ananya Das,Hospital,75,92.83,0.12,7461.99,6126.78
+TXN-00271,2025-04-01,East,Infecta-Guard 250mg,Arjun Bose,Retail Pharmacy,17,137.7,0.05,3433.27,2223.85
+TXN-00272,2025-04-01,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,14,420.97,0.01,6514.26,5834.64
+TXN-00273,2025-04-02,North,Infecta-Guard 250mg,Simran Kaur,Hospital,64,140.03,0.1,11201.13,8065.73
+TXN-00274,2025-04-02,North,Respiclear Inhaler,Simran Kaur,Retail Pharmacy,10,422.86,0.02,7231.2,4144.03
+TXN-00275,2025-04-03,East,Infecta-Guard 250mg,Ananya Das,Retail Pharmacy,19,137.09,0.04,3593.09,2500.52
+TXN-00276,2025-04-03,North,Respiclear Inhaler,Aarav Mehta,Clinic,6,425.78,0.0,4054.37,2554.68
+TXN-00277,2025-04-03,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,30,95.69,0.05,3528.33,2727.16
+TXN-00278,2025-04-04,East,Cardiozen 10mg,Ananya Das,Clinic,12,181.17,0.03,2577.62,2108.82
+TXN-00279,2025-04-04,East,Glucobal 500mg,Ananya Das,Retail Pharmacy,22,92.62,0.02,3104.14,1996.89
+TXN-00280,2025-04-04,East,Respiclear Inhaler,Ananya Das,Hospital,19,411.39,0.12,12219.56,6878.44
+TXN-00281,2025-04-04,South,Infecta-Guard 250mg,Karthik Iyer,Distributor,156,141.83,0.12,21957.96,19470.42
+TXN-00282,2025-04-04,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,47,94.29,0.05,3610.41,4210.05
+TXN-00283,2025-04-05,North,Neurocalm 50mg,Aarav Mehta,Retail Pharmacy,23,302.73,0.05,7033.69,6614.65
+TXN-00284,2025-04-05,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,71,137.25,0.1,11330.89,8770.28
+TXN-00285,2025-04-07,North,Respiclear Inhaler,Simran Kaur,Retail Pharmacy,19,408.02,0.04,6793.63,7442.28
+TXN-00286,2025-04-07,South,Cardiozen 10mg,Lakshmi Nair,Hospital,74,182.76,0.06,12267.97,12712.79
+TXN-00287,2025-04-07,West,Cardiozen 10mg,Priya Joshi,Distributor,132,181.7,0.12,26729.73,21106.27
+TXN-00288,2025-04-08,North,Neurocalm 50mg,Aarav Mehta,Hospital,52,307.38,0.09,15378.04,14545.22
+TXN-00289,2025-04-08,South,Infecta-Guard 250mg,Lakshmi Nair,Distributor,130,139.42,0.18,22765.39,14862.17
+TXN-00290,2025-04-09,Central,Cardiozen 10mg,Neha Verma,Hospital,54,190.51,0.07,9571.0,9567.41
+TXN-00291,2025-04-09,West,Hydralyte-Plus ORS,Priya Joshi,Distributor,343,34.24,0.17,10914.79,9747.79
+TXN-00292,2025-04-09,West,Infecta-Guard 250mg,Priya Joshi,Retail Pharmacy,29,142.04,0.07,4192.08,3830.82
+TXN-00293,2025-04-09,West,Respiclear Inhaler,Rohan Desai,Hospital,24,407.99,0.08,15656.26,9008.42
+TXN-00294,2025-04-10,Central,Neurocalm 50mg,Neha Verma,Distributor,76,303.94,0.1,21432.32,20789.5
+TXN-00295,2025-04-10,East,Glucobal 500mg,Ananya Das,Clinic,13,93.34,0.01,1820.64,1201.29
+TXN-00296,2025-04-10,North,Cardiozen 10mg,Simran Kaur,Clinic,13,186.5,0.02,3308.31,2376.01
+TXN-00297,2025-04-10,South,Hydralyte-Plus ORS,Karthik Iyer,Distributor,368,35.74,0.12,10571.03,11574.04
+TXN-00298,2025-04-11,East,Glucobal 500mg,Arjun Bose,Distributor,153,92.74,0.11,14346.28,12628.41
+TXN-00299,2025-04-11,East,Infecta-Guard 250mg,Ananya Das,Clinic,9,139.54,0.01,2009.65,1243.3
+TXN-00300,2025-04-11,East,Infecta-Guard 250mg,Ananya Das,Hospital,55,140.01,0.11,8912.34,6853.49
+TXN-00301,2025-04-11,North,Cardiozen 10mg,Aarav Mehta,Clinic,14,188.01,0.02,3273.76,2579.5
+TXN-00302,2025-04-11,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,37,97.04,0.02,4030.75,3518.67
+TXN-00303,2025-04-11,North,Hydralyte-Plus ORS,Simran Kaur,Clinic,44,34.54,0.03,1477.91,1474.17
+TXN-00304,2025-04-11,North,Respiclear Inhaler,Simran Kaur,Hospital,25,421.48,0.06,17891.89,9904.78
+TXN-00305,2025-04-12,West,Infecta-Guard 250mg,Priya Joshi,Clinic,20,142.63,0.02,2738.21,2795.55
+TXN-00306,2025-04-12,West,Respiclear Inhaler,Priya Joshi,Retail Pharmacy,17,428.5,0.02,6756.79,7138.81
+TXN-00307,2025-04-13,East,Cardiozen 10mg,Arjun Bose,Clinic,12,183.74,0.01,2664.14,2182.83
+TXN-00308,2025-04-13,East,Hydralyte-Plus ORS,Arjun Bose,Distributor,331,35.01,0.19,8451.68,9386.53
+TXN-00309,2025-04-13,North,Infecta-Guard 250mg,Simran Kaur,Distributor,126,140.09,0.17,21969.15,14650.61
+TXN-00310,2025-04-14,East,Infecta-Guard 250mg,Arjun Bose,Clinic,12,141.16,0.05,2177.63,1609.22
+TXN-00311,2025-04-14,West,Neurocalm 50mg,Priya Joshi,Hospital,52,302.0,0.08,14587.59,14447.68
+TXN-00312,2025-04-14,West,Respiclear Inhaler,Rohan Desai,Hospital,31,420.43,0.05,15943.77,12381.66
+TXN-00313,2025-04-15,South,Glucobal 500mg,Karthik Iyer,Clinic,24,92.4,0.04,2300.98,2128.9
+TXN-00314,2025-04-16,Central,Glucobal 500mg,Neha Verma,Retail Pharmacy,35,97.26,0.01,3039.97,3370.06
+TXN-00315,2025-04-16,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,46,94.77,0.03,4224.41,4228.64
+TXN-00316,2025-04-16,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,375,34.81,0.13,12006.05,11356.76
+TXN-00317,2025-04-17,Central,Glucobal 500mg,Neha Verma,Hospital,62,96.53,0.12,7023.6,5266.68
+TXN-00318,2025-04-17,Central,Infecta-Guard 250mg,Neha Verma,Hospital,45,136.72,0.09,7953.01,5598.68
+TXN-00319,2025-04-17,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,20,186.56,0.06,4460.17,3507.33
+TXN-00320,2025-04-17,North,Cardiozen 10mg,Aarav Mehta,Distributor,132,179.86,0.14,29092.36,20417.71
+TXN-00321,2025-04-17,North,Glucobal 500mg,Aarav Mehta,Hospital,95,97.02,0.09,10097.34,8387.38
+TXN-00322,2025-04-18,Central,Cardiozen 10mg,Vikram Tiwari,Distributor,79,187.2,0.1,19829.11,13309.92
+TXN-00323,2025-04-18,Central,Neurocalm 50mg,Vikram Tiwari,Hospital,21,313.14,0.13,11300.19,5721.07
+TXN-00324,2025-04-18,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,210,34.4,0.08,5842.14,6646.08
+TXN-00325,2025-04-18,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,31,97.71,0.04,4071.56,2907.85
+TXN-00326,2025-04-19,East,Hydralyte-Plus ORS,Ananya Das,Retail Pharmacy,72,35.98,0.02,1642.02,2538.75
+TXN-00327,2025-04-19,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,13,421.98,0.06,5052.61,5156.6
+TXN-00328,2025-04-19,South,Neurocalm 50mg,Lakshmi Nair,Hospital,53,309.57,0.07,16136.81,15258.71
+TXN-00329,2025-04-19,West,Infecta-Guard 250mg,Priya Joshi,Hospital,56,139.74,0.12,10808.94,6886.39
+TXN-00330,2025-04-19,West,Respiclear Inhaler,Priya Joshi,Hospital,40,417.61,0.12,15921.54,14699.87
+TXN-00331,2025-04-20,East,Glucobal 500mg,Arjun Bose,Hospital,71,97.38,0.1,7756.03,6222.58
+TXN-00332,2025-04-20,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,26,188.81,0.05,5405.27,4663.61
+TXN-00333,2025-04-20,South,Infecta-Guard 250mg,Lakshmi Nair,Distributor,146,141.63,0.18,22242.6,16955.94
+TXN-00334,2025-04-20,South,Neurocalm 50mg,Lakshmi Nair,Clinic,13,305.36,0.03,3751.5,3850.59
+TXN-00335,2025-04-20,West,Neurocalm 50mg,Rohan Desai,Hospital,34,313.55,0.08,14753.37,9807.84
+TXN-00336,2025-04-21,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,36,94.87,0.07,4110.55,3176.25
+TXN-00337,2025-04-21,South,Cardiozen 10mg,Lakshmi Nair,Hospital,77,183.58,0.11,13249.12,12580.74
+TXN-00338,2025-04-21,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,38,95.59,0.02,3912.45,3559.77
+TXN-00339,2025-04-21,West,Hydralyte-Plus ORS,Rohan Desai,Retail Pharmacy,64,35.33,0.05,2086.24,2148.06
+TXN-00340,2025-04-21,West,Neurocalm 50mg,Rohan Desai,Hospital,35,316.49,0.07,15409.7,10301.75
+TXN-00341,2025-04-22,Central,Hydralyte-Plus ORS,Neha Verma,Hospital,132,35.43,0.08,4090.11,4302.62
+TXN-00342,2025-04-23,East,Respiclear Inhaler,Arjun Bose,Hospital,19,407.65,0.12,12234.48,6815.91
+TXN-00343,2025-04-24,Central,Infecta-Guard 250mg,Vikram Tiwari,Retail Pharmacy,21,144.01,0.03,3234.13,2933.48
+TXN-00344,2025-04-24,East,Respiclear Inhaler,Arjun Bose,Hospital,23,416.38,0.09,13450.95,8714.83
+TXN-00345,2025-04-24,North,Neurocalm 50mg,Simran Kaur,Distributor,91,312.69,0.11,30584.69,25324.76
+TXN-00346,2025-04-24,West,Cardiozen 10mg,Priya Joshi,Retail Pharmacy,27,182.34,0.01,5470.15,4873.95
+TXN-00347,2025-04-25,Central,Hydralyte-Plus ORS,Vikram Tiwari,Retail Pharmacy,52,34.36,0.01,1641.73,1768.85
+TXN-00348,2025-04-25,North,Neurocalm 50mg,Simran Kaur,Clinic,8,304.36,0.0,3856.84,2434.88
+TXN-00349,2025-04-25,South,Infecta-Guard 250mg,Karthik Iyer,Clinic,21,138.73,0.03,2718.12,2825.93
+TXN-00350,2025-04-25,West,Cardiozen 10mg,Rohan Desai,Clinic,5,184.22,0.04,3020.42,884.26
+TXN-00351,2025-04-26,Central,Infecta-Guard 250mg,Vikram Tiwari,Hospital,34,137.19,0.12,8491.81,4104.72
+TXN-00352,2025-04-26,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,39,93.13,0.04,3132.29,3486.79
+TXN-00353,2025-04-26,North,Neurocalm 50mg,Simran Kaur,Hospital,44,304.17,0.1,16873.48,12045.13
+TXN-00354,2025-04-26,West,Respiclear Inhaler,Priya Joshi,Hospital,23,428.51,0.1,14659.36,8870.16
+TXN-00355,2025-04-27,East,Glucobal 500mg,Arjun Bose,Hospital,61,92.86,0.11,7573.79,5041.37
+TXN-00356,2025-04-27,South,Glucobal 500mg,Lakshmi Nair,Hospital,103,96.14,0.1,9987.78,8912.18
+TXN-00357,2025-04-27,West,Respiclear Inhaler,Priya Joshi,Hospital,32,426.16,0.14,16636.68,11727.92
+TXN-00358,2025-04-28,Central,Neurocalm 50mg,Vikram Tiwari,Hospital,36,315.53,0.15,11026.84,9655.22
+TXN-00359,2025-04-28,East,Cardiozen 10mg,Arjun Bose,Retail Pharmacy,24,188.96,0.02,3993.98,4444.34
+TXN-00360,2025-04-28,East,Respiclear Inhaler,Arjun Bose,Clinic,12,408.63,0.02,3346.41,4805.49
+TXN-00361,2025-04-28,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,20,181.73,0.04,5367.65,3489.22
+TXN-00362,2025-04-29,East,Cardiozen 10mg,Ananya Das,Distributor,87,186.23,0.15,20159.19,13771.71
+TXN-00363,2025-04-29,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,203,35.31,0.11,5855.7,6379.46
+TXN-00364,2025-04-30,Central,Respiclear Inhaler,Vikram Tiwari,Hospital,13,421.25,0.06,11145.31,5147.67
+TXN-00365,2025-04-30,North,Cardiozen 10mg,Aarav Mehta,Distributor,158,186.39,0.15,27711.11,25032.18
+TXN-00366,2025-04-30,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,44,95.98,0.05,3932.59,4011.96
+TXN-00367,2025-05-01,East,Cardiozen 10mg,Arjun Bose,Distributor,112,189.21,0.11,20801.79,18860.45
+TXN-00368,2025-05-01,East,Infecta-Guard 250mg,Ananya Das,Hospital,69,140.7,0.1,8613.42,8737.47
+TXN-00369,2025-05-01,East,Respiclear Inhaler,Arjun Bose,Clinic,2,420.88,0.01,3072.26,833.34
+TXN-00370,2025-05-01,North,Infecta-Guard 250mg,Simran Kaur,Hospital,71,139.55,0.1,11052.1,8917.25
+TXN-00371,2025-05-01,North,Respiclear Inhaler,Aarav Mehta,Hospital,29,413.86,0.06,18188.97,11281.82
+TXN-00372,2025-05-01,South,Glucobal 500mg,Karthik Iyer,Distributor,200,93.37,0.12,18121.71,16433.12
+TXN-00373,2025-05-01,West,Hydralyte-Plus ORS,Priya Joshi,Hospital,214,34.46,0.14,5127.18,6342.02
+TXN-00374,2025-05-01,West,Respiclear Inhaler,Priya Joshi,Hospital,16,425.83,0.07,16068.92,6336.35
+TXN-00375,2025-05-02,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,80,35.73,0.01,2476.3,2829.82
+TXN-00376,2025-05-02,North,Infecta-Guard 250mg,Aarav Mehta,Clinic,17,138.7,0.02,2672.45,2310.74
+TXN-00377,2025-05-02,West,Infecta-Guard 250mg,Rohan Desai,Distributor,112,138.06,0.17,20803.73,12834.06
+TXN-00378,2025-05-03,East,Respiclear Inhaler,Ananya Das,Distributor,35,419.01,0.17,25362.34,12172.24
+TXN-00379,2025-05-03,West,Infecta-Guard 250mg,Priya Joshi,Hospital,62,136.38,0.13,10845.76,7356.34
+TXN-00380,2025-05-03,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,11,313.81,0.06,6016.07,3244.8
+TXN-00381,2025-05-04,East,Cardiozen 10mg,Ananya Das,Hospital,63,184.51,0.08,9920.32,10694.2
+TXN-00382,2025-05-04,West,Hydralyte-Plus ORS,Rohan Desai,Distributor,328,35.51,0.12,10490.55,10249.61
+TXN-00383,2025-05-05,East,Cardiozen 10mg,Arjun Bose,Distributor,97,186.61,0.13,21555.5,15748.02
+TXN-00384,2025-05-05,North,Cardiozen 10mg,Aarav Mehta,Hospital,62,189.21,0.08,13402.39,10792.54
+TXN-00385,2025-05-05,South,Glucobal 500mg,Karthik Iyer,Hospital,84,94.53,0.12,8846.72,6987.66
+TXN-00386,2025-05-05,South,Hydralyte-Plus ORS,Karthik Iyer,Hospital,225,35.82,0.06,5613.47,7575.93
+TXN-00387,2025-05-05,West,Infecta-Guard 250mg,Rohan Desai,Retail Pharmacy,32,136.78,0.0,4343.82,4376.96
+TXN-00388,2025-05-06,Central,Glucobal 500mg,Neha Verma,Distributor,130,96.69,0.11,14639.16,11187.03
+TXN-00389,2025-05-07,Central,Neurocalm 50mg,Neha Verma,Hospital,21,306.24,0.07,11519.26,5980.87
+TXN-00390,2025-05-07,North,Infecta-Guard 250mg,Simran Kaur,Retail Pharmacy,31,142.8,0.02,4712.67,4338.26
+TXN-00391,2025-05-07,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,36,94.95,0.02,4023.59,3349.84
+TXN-00392,2025-05-07,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,95,35.36,0.06,2337.84,3157.65
+TXN-00393,2025-05-08,Central,Cardiozen 10mg,Neha Verma,Retail Pharmacy,14,189.93,0.02,4075.09,2605.84
+TXN-00394,2025-05-08,South,Respiclear Inhaler,Lakshmi Nair,Retail Pharmacy,9,408.84,0.02,7218.04,3605.97
+TXN-00395,2025-05-09,Central,Infecta-Guard 250mg,Neha Verma,Retail Pharmacy,19,144.04,0.07,3092.96,2545.19
+TXN-00396,2025-05-09,East,Infecta-Guard 250mg,Arjun Bose,Retail Pharmacy,21,136.64,0.04,3566.88,2754.66
+TXN-00397,2025-05-09,North,Cardiozen 10mg,Simran Kaur,Clinic,20,179.8,0.04,3433.46,3452.16
+TXN-00398,2025-05-09,West,Neurocalm 50mg,Priya Joshi,Distributor,105,302.91,0.16,27983.56,26716.66
+TXN-00399,2025-05-10,Central,Glucobal 500mg,Vikram Tiwari,Hospital,69,96.46,0.11,7073.17,5923.61
+TXN-00400,2025-05-10,Central,Glucobal 500mg,Vikram Tiwari,Retail Pharmacy,21,94.02,0.08,2862.68,1816.47
+TXN-00401,2025-05-10,North,Glucobal 500mg,Aarav Mehta,Hospital,103,97.69,0.09,9266.58,9156.48
+TXN-00402,2025-05-11,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,21,318.79,0.04,6547.73,6426.81
+TXN-00403,2025-05-13,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,41,97.09,0.06,3882.59,3741.85
+TXN-00404,2025-05-13,South,Respiclear Inhaler,Lakshmi Nair,Clinic,5,428.57,0.02,4343.86,2099.99
+TXN-00405,2025-05-14,Central,Glucobal 500mg,Neha Verma,Retail Pharmacy,20,96.74,0.05,2771.27,1838.06
+TXN-00406,2025-05-14,East,Infecta-Guard 250mg,Arjun Bose,Hospital,55,139.79,0.1,7933.29,6919.6
+TXN-00407,2025-05-14,South,Cardiozen 10mg,Karthik Iyer,Hospital,58,182.73,0.14,12277.1,9114.57
+TXN-00408,2025-05-15,North,Infecta-Guard 250mg,Simran Kaur,Hospital,85,141.33,0.13,11667.21,10451.35
+TXN-00409,2025-05-15,West,Hydralyte-Plus ORS,Priya Joshi,Clinic,40,35.02,0.0,1361.17,1400.8
+TXN-00410,2025-05-16,East,Glucobal 500mg,Ananya Das,Retail Pharmacy,45,94.14,0.06,2920.18,3982.12
+TXN-00411,2025-05-16,North,Respiclear Inhaler,Aarav Mehta,Hospital,23,415.67,0.1,17310.82,8604.37
+TXN-00412,2025-05-16,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,27,189.4,0.07,5829.9,4755.83
+TXN-00413,2025-05-17,Central,Glucobal 500mg,Neha Verma,Hospital,50,97.09,0.12,6462.96,4271.96
+TXN-00414,2025-05-17,West,Hydralyte-Plus ORS,Priya Joshi,Retail Pharmacy,92,34.42,0.04,2033.56,3039.97
+TXN-00415,2025-05-17,West,Neurocalm 50mg,Priya Joshi,Hospital,54,303.19,0.06,14682.47,15389.92
+TXN-00416,2025-05-18,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,36,94.95,0.06,2859.43,3213.11
+TXN-00417,2025-05-18,East,Glucobal 500mg,Ananya Das,Distributor,151,97.1,0.13,15091.35,12756.03
+TXN-00418,2025-05-18,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,41,93.64,0.02,4355.93,3762.46
+TXN-00419,2025-05-18,North,Respiclear Inhaler,Aarav Mehta,Distributor,55,408.76,0.15,34855.23,19109.53
+TXN-00420,2025-05-19,South,Infecta-Guard 250mg,Karthik Iyer,Retail Pharmacy,27,141.37,0.04,4567.34,3664.31
+TXN-00421,2025-05-20,South,Neurocalm 50mg,Lakshmi Nair,Distributor,102,305.79,0.1,29531.81,28071.52
+TXN-00422,2025-05-21,Central,Respiclear Inhaler,Vikram Tiwari,Retail Pharmacy,1,422.4,0.06,4736.39,397.06
+TXN-00423,2025-05-22,Central,Cardiozen 10mg,Neha Verma,Hospital,52,181.69,0.09,9426.19,8597.57
+TXN-00424,2025-05-22,North,Infecta-Guard 250mg,Aarav Mehta,Hospital,77,139.75,0.14,11361.68,9254.24
+TXN-00425,2025-05-23,East,Infecta-Guard 250mg,Ananya Das,Retail Pharmacy,27,143.65,0.04,3585.82,3723.41
+TXN-00426,2025-05-23,North,Glucobal 500mg,Aarav Mehta,Hospital,94,93.08,0.15,9792.24,7437.09
+TXN-00427,2025-05-23,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,37,97.0,0.06,3963.57,3373.66
+TXN-00428,2025-05-23,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,8,426.8,0.06,6375.83,3209.54
+TXN-00429,2025-05-23,West,Hydralyte-Plus ORS,Priya Joshi,Hospital,200,34.93,0.08,5059.67,6427.12
+TXN-00430,2025-05-23,West,Infecta-Guard 250mg,Rohan Desai,Retail Pharmacy,25,140.09,0.0,4343.92,3502.25
+TXN-00431,2025-05-24,Central,Infecta-Guard 250mg,Vikram Tiwari,Retail Pharmacy,15,137.51,0.03,3118.32,2000.77
+TXN-00432,2025-05-24,North,Infecta-Guard 250mg,Simran Kaur,Retail Pharmacy,30,141.53,0.01,4476.37,4203.44
+TXN-00433,2025-05-24,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,36,97.03,0.02,3964.04,3423.22
+TXN-00434,2025-05-25,East,Hydralyte-Plus ORS,Arjun Bose,Hospital,171,36.03,0.07,4081.5,5729.85
+TXN-00435,2025-05-25,West,Infecta-Guard 250mg,Priya Joshi,Distributor,170,141.94,0.13,20822.97,20992.93
+TXN-00436,2025-05-26,East,Infecta-Guard 250mg,Ananya Das,Hospital,54,137.88,0.14,8204.28,6403.15
+TXN-00437,2025-05-26,South,Glucobal 500mg,Karthik Iyer,Clinic,24,92.65,0.0,2404.18,2223.6
+TXN-00438,2025-05-27,Central,Respiclear Inhaler,Neha Verma,Hospital,23,416.21,0.15,11391.18,8136.91
+TXN-00439,2025-05-29,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,50,95.17,0.07,4152.11,4425.4
+TXN-00440,2025-05-29,North,Glucobal 500mg,Aarav Mehta,Distributor,214,95.87,0.15,19929.96,17438.75
+TXN-00441,2025-05-30,North,Infecta-Guard 250mg,Simran Kaur,Hospital,62,136.66,0.14,11519.44,7286.71
+TXN-00442,2025-05-30,South,Cardiozen 10mg,Lakshmi Nair,Hospital,59,183.41,0.09,12417.85,9847.28
+TXN-00443,2025-05-31,Central,Cardiozen 10mg,Neha Verma,Hospital,50,188.24,0.14,9001.13,8094.32
+TXN-00444,2025-05-31,East,Respiclear Inhaler,Arjun Bose,Distributor,43,418.71,0.12,23996.52,15843.99
+TXN-00445,2025-06-01,East,Infecta-Guard 250mg,Arjun Bose,Distributor,138,140.34,0.15,16168.04,16461.88
+TXN-00446,2025-06-01,North,Respiclear Inhaler,Simran Kaur,Retail Pharmacy,11,425.27,0.03,6780.23,4537.63
+TXN-00447,2025-06-01,South,Cardiozen 10mg,Karthik Iyer,Hospital,76,181.15,0.08,13437.28,12666.01
+TXN-00448,2025-06-01,South,Neurocalm 50mg,Karthik Iyer,Hospital,37,316.04,0.13,16156.92,10173.33
+TXN-00449,2025-06-02,Central,Cardiozen 10mg,Vikram Tiwari,Clinic,10,188.73,0.03,2417.91,1830.68
+TXN-00450,2025-06-03,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,9,408.86,0.01,5098.46,3642.94
+TXN-00451,2025-06-04,North,Glucobal 500mg,Aarav Mehta,Distributor,214,95.25,0.18,20940.16,16714.47
+TXN-00452,2025-06-05,Central,Cardiozen 10mg,Vikram Tiwari,Clinic,10,185.35,0.01,2461.83,1834.96
+TXN-00453,2025-06-06,North,Respiclear Inhaler,Simran Kaur,Clinic,6,424.03,0.01,4417.78,2518.74
+TXN-00454,2025-06-06,South,Hydralyte-Plus ORS,Karthik Iyer,Hospital,172,34.94,0.1,5478.8,5408.71
+TXN-00455,2025-06-06,West,Cardiozen 10mg,Rohan Desai,Hospital,46,187.23,0.09,12364.84,7837.45
+TXN-00456,2025-06-07,East,Respiclear Inhaler,Arjun Bose,Hospital,17,430.79,0.08,12916.28,6737.56
+TXN-00457,2025-06-08,South,Infecta-Guard 250mg,Lakshmi Nair,Retail Pharmacy,39,138.5,0.04,4579.36,5185.44
+TXN-00458,2025-06-08,South,Respiclear Inhaler,Karthik Iyer,Hospital,22,418.44,0.1,16703.68,8285.11
+TXN-00459,2025-06-08,West,Respiclear Inhaler,Priya Joshi,Distributor,47,432.01,0.1,32241.37,18274.02
+TXN-00460,2025-06-09,North,Hydralyte-Plus ORS,Aarav Mehta,Retail Pharmacy,79,34.08,0.07,2285.69,2503.86
+TXN-00461,2025-06-09,North,Neurocalm 50mg,Aarav Mehta,Distributor,101,308.19,0.16,31344.72,26146.84
+TXN-00462,2025-06-10,Central,Infecta-Guard 250mg,Vikram Tiwari,Clinic,14,136.43,0.04,1858.35,1833.62
+TXN-00463,2025-06-10,Central,Neurocalm 50mg,Vikram Tiwari,Retail Pharmacy,8,310.88,0.01,4914.25,2462.17
+TXN-00464,2025-06-10,North,Cardiozen 10mg,Aarav Mehta,Clinic,26,186.87,0.02,3219.56,4761.45
+TXN-00465,2025-06-10,North,Infecta-Guard 250mg,Simran Kaur,Clinic,26,136.22,0.01,2910.86,3506.3
+TXN-00466,2025-06-10,North,Neurocalm 50mg,Simran Kaur,Distributor,105,303.85,0.16,33693.59,26799.57
+TXN-00467,2025-06-10,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,88,139.76,0.09,11115.47,11191.98
+TXN-00468,2025-06-10,West,Glucobal 500mg,Priya Joshi,Distributor,210,97.54,0.19,18432.45,16591.55
+TXN-00469,2025-06-11,North,Infecta-Guard 250mg,Aarav Mehta,Retail Pharmacy,32,140.83,0.06,4823.91,4236.17
+TXN-00470,2025-06-11,South,Cardiozen 10mg,Lakshmi Nair,Clinic,19,187.92,0.01,3374.0,3534.78
+TXN-00471,2025-06-11,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,16,305.35,0.04,6070.52,4690.18
+TXN-00472,2025-06-12,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,179,34.89,0.11,5949.0,5558.33
+TXN-00473,2025-06-12,South,Respiclear Inhaler,Karthik Iyer,Distributor,46,429.24,0.13,34713.36,17178.18
+TXN-00474,2025-06-12,West,Cardiozen 10mg,Rohan Desai,Hospital,49,181.73,0.13,11839.99,7747.15
+TXN-00475,2025-06-13,Central,Cardiozen 10mg,Neha Verma,Hospital,49,182.22,0.09,10155.54,8125.19
+TXN-00476,2025-06-13,East,Glucobal 500mg,Arjun Bose,Clinic,15,95.91,0.02,1904.03,1409.88
+TXN-00477,2025-06-13,East,Hydralyte-Plus ORS,Ananya Das,Distributor,272,35.84,0.14,8360.45,8383.69
+TXN-00478,2025-06-13,West,Infecta-Guard 250mg,Rohan Desai,Hospital,86,138.69,0.1,10127.63,10734.61
+TXN-00479,2025-06-13,West,Neurocalm 50mg,Priya Joshi,Hospital,54,316.59,0.05,14072.46,16241.07
+TXN-00480,2025-06-13,West,Respiclear Inhaler,Priya Joshi,Hospital,19,420.92,0.13,14856.11,6957.81
+TXN-00481,2025-06-14,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,52,190.11,0.14,9344.52,8501.72
+TXN-00482,2025-06-14,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,383,34.47,0.16,11132.5,11089.69
+TXN-00483,2025-06-14,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,29,185.09,0.08,5414.14,4938.2
+TXN-00484,2025-06-14,West,Glucobal 500mg,Rohan Desai,Hospital,76,97.24,0.14,8747.45,6355.61
+TXN-00485,2025-06-15,East,Respiclear Inhaler,Arjun Bose,Retail Pharmacy,10,412.85,0.04,5436.44,3963.36
+TXN-00486,2025-06-15,South,Neurocalm 50mg,Karthik Iyer,Hospital,57,306.06,0.1,15449.69,15700.88
+TXN-00487,2025-06-16,South,Respiclear Inhaler,Karthik Iyer,Hospital,18,425.69,0.12,15305.75,6742.93
+TXN-00488,2025-06-18,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,158,34.28,0.09,5427.24,4928.78
+TXN-00489,2025-06-18,South,Hydralyte-Plus ORS,Karthik Iyer,Distributor,392,35.08,0.19,10986.18,11138.6
+TXN-00490,2025-06-19,East,Cardiozen 10mg,Arjun Bose,Hospital,49,180.86,0.13,10742.89,7710.06
+TXN-00491,2025-06-19,East,Glucobal 500mg,Ananya Das,Distributor,169,96.83,0.11,14561.53,14564.2
+TXN-00492,2025-06-19,South,Respiclear Inhaler,Lakshmi Nair,Hospital,36,408.09,0.05,16511.51,13956.68
+TXN-00493,2025-06-19,West,Cardiozen 10mg,Rohan Desai,Distributor,118,182.13,0.19,24289.72,17407.99
+TXN-00494,2025-06-20,Central,Respiclear Inhaler,Neha Verma,Retail Pharmacy,5,415.3,0.07,5278.17,1931.14
+TXN-00495,2025-06-20,East,Cardiozen 10mg,Ananya Das,Distributor,124,186.76,0.11,20211.47,20610.83
+TXN-00496,2025-06-20,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,31,189.75,0.05,5405.47,5588.14
+TXN-00497,2025-06-20,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,30,184.84,0.02,5432.62,5434.3
+TXN-00498,2025-06-21,North,Infecta-Guard 250mg,Aarav Mehta,Distributor,171,136.29,0.18,22885.92,19110.58
+TXN-00499,2025-06-22,Central,Neurocalm 50mg,Neha Verma,Retail Pharmacy,11,307.65,0.05,4849.05,3214.94
+TXN-00500,2025-06-22,Central,Neurocalm 50mg,Vikram Tiwari,Retail Pharmacy,22,312.05,0.02,4762.87,6727.8
+TXN-00501,2025-06-22,West,Respiclear Inhaler,Priya Joshi,Retail Pharmacy,10,431.16,0.0,6599.26,4311.6
+TXN-00502,2025-06-22,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,11,413.62,0.03,6398.4,4413.33
+TXN-00503,2025-06-23,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,55,95.58,0.08,4030.26,4836.35
+TXN-00504,2025-06-23,North,Infecta-Guard 250mg,Aarav Mehta,Clinic,22,143.18,0.02,2884.23,3086.96
+TXN-00505,2025-06-23,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,25,185.45,0.04,5632.79,4450.8
+TXN-00506,2025-06-23,South,Neurocalm 50mg,Karthik Iyer,Clinic,15,311.09,0.04,4117.18,4479.7
+TXN-00507,2025-06-24,East,Neurocalm 50mg,Arjun Bose,Hospital,47,316.04,0.07,11652.68,13814.11
+TXN-00508,2025-06-24,East,Neurocalm 50mg,Arjun Bose,Distributor,65,306.92,0.11,23534.86,17755.32
+TXN-00509,2025-06-24,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,21,310.94,0.02,7147.96,6399.15
+TXN-00510,2025-06-24,South,Infecta-Guard 250mg,Karthik Iyer,Hospital,91,137.73,0.12,10772.55,11029.42
+TXN-00511,2025-06-25,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,20,317.0,0.02,5755.94,6213.2
+TXN-00512,2025-06-26,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,42,180.07,0.11,10189.86,6731.02
+TXN-00513,2025-06-26,East,Glucobal 500mg,Arjun Bose,Distributor,146,93.76,0.14,14076.58,11772.51
+TXN-00514,2025-06-26,East,Glucobal 500mg,Ananya Das,Distributor,129,94.78,0.12,13951.26,10759.43
+TXN-00515,2025-06-26,East,Glucobal 500mg,Arjun Bose,Distributor,156,95.71,0.2,15339.12,11944.61
+TXN-00516,2025-06-26,North,Glucobal 500mg,Aarav Mehta,Clinic,24,92.77,0.0,2550.27,2226.48
+TXN-00517,2025-06-26,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,31,97.39,0.05,3549.24,2868.14
+TXN-00518,2025-06-27,Central,Infecta-Guard 250mg,Neha Verma,Distributor,115,141.75,0.15,16389.38,13856.06
+TXN-00519,2025-06-27,East,Glucobal 500mg,Ananya Das,Distributor,149,94.59,0.13,14433.59,12261.7
+TXN-00520,2025-06-27,South,Neurocalm 50mg,Karthik Iyer,Distributor,99,313.08,0.12,29948.37,27275.53
+TXN-00521,2025-06-28,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,37,95.25,0.07,3781.08,3277.55
+TXN-00522,2025-06-28,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,34,97.29,0.06,4176.99,3109.39
+TXN-00523,2025-06-28,West,Infecta-Guard 250mg,Priya Joshi,Hospital,99,143.05,0.07,10924.27,13170.61
+TXN-00524,2025-06-29,West,Cardiozen 10mg,Priya Joshi,Clinic,19,182.66,0.01,3312.29,3435.83
+TXN-00525,2025-06-29,West,Hydralyte-Plus ORS,Rohan Desai,Distributor,279,34.8,0.12,9719.95,8544.1
+TXN-00526,2025-06-30,East,Glucobal 500mg,Ananya Das,Hospital,81,93.04,0.1,7158.92,6782.62
+TXN-00527,2025-06-30,South,Hydralyte-Plus ORS,Karthik Iyer,Distributor,389,34.66,0.19,10210.67,10921.02
+TXN-00528,2025-07-01,North,Infecta-Guard 250mg,Aarav Mehta,Retail Pharmacy,52,136.55,0.07,5053.87,6603.56
+TXN-00529,2025-07-01,North,Infecta-Guard 250mg,Simran Kaur,Clinic,34,143.92,0.05,2869.43,4648.62
+TXN-00530,2025-07-01,North,Respiclear Inhaler,Aarav Mehta,Hospital,30,413.09,0.12,16170.93,10905.58
+TXN-00531,2025-07-01,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,9,301.53,0.05,6181.73,2578.08
+TXN-00532,2025-07-02,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,15,316.63,0.02,6828.62,4654.46
+TXN-00533,2025-07-02,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,4,415.5,0.03,7005.01,1612.14
+TXN-00534,2025-07-03,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,56,35.43,0.06,2379.67,1865.04
+TXN-00535,2025-07-03,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,11,416.83,0.03,6382.72,4447.58
+TXN-00536,2025-07-04,North,Cardiozen 10mg,Simran Kaur,Clinic,12,181.06,0.05,3436.79,2064.08
+TXN-00537,2025-07-04,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,26,309.69,0.08,6985.73,7407.78
+TXN-00538,2025-07-04,North,Respiclear Inhaler,Aarav Mehta,Clinic,5,428.24,0.03,4447.17,2076.96
+TXN-00539,2025-07-04,West,Hydralyte-Plus ORS,Rohan Desai,Clinic,34,35.61,0.01,1216.31,1198.63
+TXN-00540,2025-07-05,North,Cardiozen 10mg,Simran Kaur,Hospital,54,182.91,0.11,13941.74,8790.65
+TXN-00541,2025-07-05,South,Hydralyte-Plus ORS,Lakshmi Nair,Retail Pharmacy,53,36.0,0.04,2337.35,1831.68
+TXN-00542,2025-07-06,Central,Respiclear Inhaler,Neha Verma,Retail Pharmacy,7,412.36,0.07,5132.29,2684.46
+TXN-00543,2025-07-06,West,Infecta-Guard 250mg,Rohan Desai,Hospital,89,137.64,0.08,11156.56,11269.96
+TXN-00544,2025-07-07,East,Neurocalm 50mg,Arjun Bose,Hospital,29,316.48,0.08,12244.67,8443.69
+TXN-00545,2025-07-08,North,Neurocalm 50mg,Simran Kaur,Clinic,19,308.39,0.03,4193.38,5683.63
+TXN-00546,2025-07-08,West,Infecta-Guard 250mg,Priya Joshi,Retail Pharmacy,40,143.8,0.07,4440.12,5349.36
+TXN-00547,2025-07-09,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,26,187.44,0.07,6043.01,4532.3
+TXN-00548,2025-07-10,North,Neurocalm 50mg,Aarav Mehta,Retail Pharmacy,18,312.01,0.07,6341.9,5223.05
+TXN-00549,2025-07-10,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,27,314.5,0.01,6091.08,8406.58
+TXN-00550,2025-07-11,North,Glucobal 500mg,Aarav Mehta,Hospital,108,92.98,0.15,10027.69,8535.56
+TXN-00551,2025-07-11,North,Glucobal 500mg,Aarav Mehta,Distributor,207,96.09,0.11,18609.01,17702.66
+TXN-00552,2025-07-11,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,35,97.17,0.05,4033.72,3230.9
+TXN-00553,2025-07-11,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,104,135.88,0.12,10624.95,12435.74
+TXN-00554,2025-07-12,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,23,181.5,0.08,4410.19,3840.54
+TXN-00555,2025-07-12,East,Infecta-Guard 250mg,Arjun Bose,Retail Pharmacy,33,136.1,0.06,3512.88,4221.82
+TXN-00556,2025-07-12,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,71,34.0,0.06,2446.98,2269.16
+TXN-00557,2025-07-12,South,Glucobal 500mg,Karthik Iyer,Clinic,25,95.96,0.02,2341.87,2351.02
+TXN-00558,2025-07-12,South,Hydralyte-Plus ORS,Lakshmi Nair,Hospital,123,34.9,0.14,5233.74,3691.72
+TXN-00559,2025-07-13,South,Hydralyte-Plus ORS,Karthik Iyer,Hospital,161,35.16,0.07,5362.82,5264.51
+TXN-00560,2025-07-13,West,Cardiozen 10mg,Rohan Desai,Distributor,127,187.85,0.2,24983.12,19085.56
+TXN-00561,2025-07-13,West,Respiclear Inhaler,Priya Joshi,Clinic,6,427.75,0.01,4147.41,2540.84
+TXN-00562,2025-07-14,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,38,94.02,0.02,3719.14,3501.3
+TXN-00563,2025-07-16,Central,Hydralyte-Plus ORS,Neha Verma,Hospital,85,34.33,0.05,3870.16,2772.15
+TXN-00564,2025-07-16,Central,Respiclear Inhaler,Neha Verma,Retail Pharmacy,9,410.57,0.04,4858.57,3547.32
+TXN-00565,2025-07-16,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,25,186.67,0.06,4123.7,4386.74
+TXN-00566,2025-07-16,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,37,184.05,0.03,6092.11,6605.55
+TXN-00567,2025-07-16,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,16,309.59,0.05,5846.97,4705.77
+TXN-00568,2025-07-17,East,Glucobal 500mg,Arjun Bose,Hospital,86,95.1,0.06,7426.61,7687.88
+TXN-00569,2025-07-17,North,Cardiozen 10mg,Aarav Mehta,Distributor,148,186.02,0.1,25558.55,24777.86
+TXN-00570,2025-07-17,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,124,34.72,0.15,5644.06,3659.49
+TXN-00571,2025-07-17,West,Cardiozen 10mg,Priya Joshi,Hospital,77,181.22,0.1,12081.04,12558.55
+TXN-00572,2025-07-19,Central,Hydralyte-Plus ORS,Vikram Tiwari,Clinic,21,34.21,0.02,1042.74,704.04
+TXN-00573,2025-07-19,East,Glucobal 500mg,Ananya Das,Retail Pharmacy,29,92.97,0.05,3243.36,2561.32
+TXN-00574,2025-07-19,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,6,417.77,0.02,5465.63,2456.49
+TXN-00575,2025-07-19,West,Hydralyte-Plus ORS,Priya Joshi,Hospital,151,34.22,0.12,5321.06,4547.15
+TXN-00576,2025-07-20,East,Glucobal 500mg,Ananya Das,Distributor,161,96.9,0.16,15021.96,13104.76
+TXN-00577,2025-07-20,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,24,188.91,0.05,5649.37,4307.15
+TXN-00578,2025-07-21,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,28,189.52,0.07,5370.12,4935.1
+TXN-00579,2025-07-21,North,Cardiozen 10mg,Aarav Mehta,Hospital,65,180.58,0.14,14013.98,10094.42
+TXN-00580,2025-07-21,South,Hydralyte-Plus ORS,Lakshmi Nair,Distributor,279,35.03,0.11,10581.84,8698.3
+TXN-00581,2025-07-22,Central,Hydralyte-Plus ORS,Vikram Tiwari,Retail Pharmacy,38,35.28,0.02,1568.53,1313.83
+TXN-00582,2025-07-22,North,Cardiozen 10mg,Simran Kaur,Hospital,66,188.34,0.14,13229.9,10690.18
+TXN-00583,2025-07-22,West,Neurocalm 50mg,Priya Joshi,Hospital,51,313.18,0.08,14353.59,14694.41
+TXN-00584,2025-07-23,Central,Hydralyte-Plus ORS,Neha Verma,Retail Pharmacy,42,34.17,0.08,1696.9,1320.33
+TXN-00585,2025-07-23,Central,Neurocalm 50mg,Vikram Tiwari,Clinic,10,307.99,0.01,2899.03,3049.1
+TXN-00586,2025-07-23,North,Cardiozen 10mg,Simran Kaur,Hospital,71,189.56,0.13,14321.31,11709.12
+TXN-00587,2025-07-24,Central,Infecta-Guard 250mg,Neha Verma,Distributor,136,137.36,0.2,16305.25,14944.77
+TXN-00588,2025-07-24,North,Cardiozen 10mg,Simran Kaur,Distributor,150,188.79,0.15,26857.89,24070.72
+TXN-00589,2025-07-24,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,39,190.26,0.07,5837.83,6900.73
+TXN-00590,2025-07-25,Central,Infecta-Guard 250mg,Vikram Tiwari,Retail Pharmacy,28,139.3,0.07,3214.2,3627.37
+TXN-00591,2025-07-25,East,Cardiozen 10mg,Arjun Bose,Distributor,95,185.08,0.13,19478.55,15296.86
+TXN-00592,2025-07-25,East,Glucobal 500mg,Arjun Bose,Clinic,21,94.7,0.01,1701.34,1968.81
+TXN-00593,2025-07-25,East,Neurocalm 50mg,Ananya Das,Retail Pharmacy,15,312.6,0.06,5219.75,4407.66
+TXN-00594,2025-07-25,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,17,303.79,0.03,6419.39,5009.5
+TXN-00595,2025-07-25,North,Respiclear Inhaler,Simran Kaur,Retail Pharmacy,8,423.18,0.03,6774.09,3283.88
+TXN-00596,2025-07-25,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,20,315.97,0.06,6519.07,5940.24
+TXN-00597,2025-07-25,South,Neurocalm 50mg,Lakshmi Nair,Distributor,100,314.22,0.17,29978.47,26080.26
+TXN-00598,2025-07-25,West,Cardiozen 10mg,Rohan Desai,Hospital,62,186.8,0.1,12466.05,10423.44
+TXN-00599,2025-07-26,East,Infecta-Guard 250mg,Arjun Bose,Distributor,161,142.4,0.2,17742.81,18341.12
+TXN-00600,2025-07-26,East,Respiclear Inhaler,Ananya Das,Distributor,48,407.47,0.14,23606.3,16820.36
+TXN-00601,2025-07-26,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,37,97.78,0.02,4277.02,3545.5
+TXN-00602,2025-07-26,South,Respiclear Inhaler,Lakshmi Nair,Retail Pharmacy,10,430.87,0.03,6696.47,4179.44
+TXN-00603,2025-07-27,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,149,35.57,0.1,6070.14,4769.94
+TXN-00604,2025-07-27,North,Neurocalm 50mg,Simran Kaur,Clinic,14,313.22,0.02,4207.19,4297.38
+TXN-00605,2025-07-28,Central,Neurocalm 50mg,Vikram Tiwari,Retail Pharmacy,11,305.09,0.06,4397.69,3154.63
+TXN-00606,2025-07-28,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,40,186.48,0.02,5360.04,7310.02
+TXN-00607,2025-07-28,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,42,97.76,0.02,3925.22,4023.8
+TXN-00608,2025-07-28,West,Respiclear Inhaler,Rohan Desai,Hospital,17,416.17,0.15,15895.81,6013.66
+TXN-00609,2025-07-30,North,Cardiozen 10mg,Simran Kaur,Hospital,65,182.31,0.11,13659.27,10546.63
+TXN-00610,2025-07-30,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,32,189.51,0.02,5297.75,5943.03
+TXN-00611,2025-07-31,East,Neurocalm 50mg,Arjun Bose,Clinic,10,310.03,0.04,2844.87,2976.29
+TXN-00612,2025-07-31,South,Neurocalm 50mg,Karthik Iyer,Hospital,53,316.96,0.1,15338.92,15118.99
+TXN-00613,2025-07-31,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,40,95.06,0.02,4004.29,3726.35
+TXN-00614,2025-07-31,West,Hydralyte-Plus ORS,Rohan Desai,Distributor,261,34.36,0.13,10561.16,7802.13
+TXN-00615,2025-08-01,West,Neurocalm 50mg,Rohan Desai,Distributor,82,309.09,0.18,30083.49,20783.21
+TXN-00616,2025-08-02,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,140,34.11,0.15,5556.12,4059.09
+TXN-00617,2025-08-03,North,Infecta-Guard 250mg,Aarav Mehta,Retail Pharmacy,43,141.58,0.04,4824.17,5844.42
+TXN-00618,2025-08-03,North,Neurocalm 50mg,Aarav Mehta,Clinic,11,318.67,0.02,4304.21,3435.26
+TXN-00619,2025-08-04,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,11,408.1,0.0,5007.54,4489.1
+TXN-00620,2025-08-04,South,Glucobal 500mg,Karthik Iyer,Clinic,24,97.07,0.0,2325.91,2329.68
+TXN-00621,2025-08-05,West,Respiclear Inhaler,Rohan Desai,Hospital,23,416.47,0.11,15199.71,8525.14
+TXN-00622,2025-08-06,North,Glucobal 500mg,Simran Kaur,Hospital,89,93.22,0.1,10336.95,7466.92
+TXN-00623,2025-08-06,North,Glucobal 500mg,Simran Kaur,Clinic,11,96.95,0.03,2487.98,1034.46
+TXN-00624,2025-08-06,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,131,35.1,0.14,5325.97,3954.37
+TXN-00625,2025-08-06,North,Infecta-Guard 250mg,Aarav Mehta,Distributor,239,143.36,0.2,24072.72,27410.43
+TXN-00626,2025-08-06,North,Respiclear Inhaler,Simran Kaur,Distributor,62,419.32,0.11,33820.39,23138.08
+TXN-00627,2025-08-06,West,Infecta-Guard 250mg,Rohan Desai,Hospital,90,140.4,0.09,10754.05,11498.76
+TXN-00628,2025-08-07,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,45,93.03,0.07,4035.09,3893.31
+TXN-00629,2025-08-07,North,Glucobal 500mg,Aarav Mehta,Hospital,98,94.9,0.13,9960.31,8091.17
+TXN-00630,2025-08-07,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,18,427.45,0.03,7168.21,7463.28
+TXN-00631,2025-08-08,Central,Neurocalm 50mg,Neha Verma,Distributor,86,307.27,0.14,22361.37,22725.69
+TXN-00632,2025-08-08,South,Hydralyte-Plus ORS,Lakshmi Nair,Retail Pharmacy,57,35.46,0.02,2395.86,1980.8
+TXN-00633,2025-08-09,Central,Hydralyte-Plus ORS,Vikram Tiwari,Hospital,75,34.86,0.06,3894.34,2457.63
+TXN-00634,2025-08-09,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,29,182.92,0.05,5268.47,5039.45
+TXN-00635,2025-08-10,North,Neurocalm 50mg,Aarav Mehta,Hospital,49,318.68,0.12,15335.83,13741.48
+TXN-00636,2025-08-10,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,16,409.56,0.05,6488.64,6225.31
+TXN-00637,2025-08-11,South,Glucobal 500mg,Lakshmi Nair,Distributor,183,95.07,0.12,19111.12,15310.07
+TXN-00638,2025-08-11,South,Neurocalm 50mg,Lakshmi Nair,Clinic,17,306.38,0.01,4072.64,5156.38
+TXN-00639,2025-08-11,West,Glucobal 500mg,Rohan Desai,Distributor,163,95.3,0.12,18881.4,13669.83
+TXN-00640,2025-08-11,West,Hydralyte-Plus ORS,Rohan Desai,Distributor,217,34.94,0.18,11034.0,6217.22
+TXN-00641,2025-08-12,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,37,180.84,0.15,9445.17,5687.42
+TXN-00642,2025-08-12,Central,Respiclear Inhaler,Neha Verma,Retail Pharmacy,7,421.25,0.03,4942.21,2860.29
+TXN-00643,2025-08-12,West,Glucobal 500mg,Rohan Desai,Clinic,22,97.67,0.01,2195.83,2127.25
+TXN-00644,2025-08-12,West,Neurocalm 50mg,Rohan Desai,Clinic,11,307.17,0.04,3656.26,3243.72
+TXN-00645,2025-08-13,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,48,188.21,0.08,9806.03,8311.35
+TXN-00646,2025-08-14,Central,Hydralyte-Plus ORS,Vikram Tiwari,Distributor,178,34.32,0.11,8240.02,5436.97
+TXN-00647,2025-08-14,East,Infecta-Guard 250mg,Ananya Das,Hospital,88,136.14,0.13,8187.38,10422.88
+TXN-00648,2025-08-14,North,Neurocalm 50mg,Simran Kaur,Hospital,54,318.39,0.1,15023.71,15473.75
+TXN-00649,2025-08-14,South,Glucobal 500mg,Lakshmi Nair,Distributor,194,95.07,0.12,20027.74,16230.35
+TXN-00650,2025-08-14,South,Infecta-Guard 250mg,Lakshmi Nair,Distributor,229,136.41,0.18,20713.45,25615.07
+TXN-00651,2025-08-14,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,8,431.99,0.02,6246.86,3386.8
+TXN-00652,2025-08-15,West,Glucobal 500mg,Priya Joshi,Clinic,25,94.92,0.01,2272.4,2349.27
+TXN-00653,2025-08-15,West,Infecta-Guard 250mg,Rohan Desai,Clinic,25,135.81,0.01,2501.87,3361.3
+TXN-00654,2025-08-15,West,Infecta-Guard 250mg,Priya Joshi,Distributor,233,143.12,0.15,19628.08,28344.92
+TXN-00655,2025-08-16,West,Infecta-Guard 250mg,Priya Joshi,Hospital,133,138.41,0.07,10149.07,17119.93
+TXN-00656,2025-08-17,West,Hydralyte-Plus ORS,Priya Joshi,Hospital,143,35.56,0.06,5071.96,4779.98
+TXN-00657,2025-08-17,West,Hydralyte-Plus ORS,Rohan Desai,Clinic,29,35.17,0.04,1369.42,979.13
+TXN-00658,2025-08-18,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,22,315.09,0.03,5908.8,6724.02
+TXN-00659,2025-08-19,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,29,96.16,0.03,3701.86,2704.98
+TXN-00660,2025-08-20,South,Respiclear Inhaler,Lakshmi Nair,Retail Pharmacy,11,410.21,0.01,7304.46,4467.19
+TXN-00661,2025-08-20,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,37,182.38,0.05,5313.85,6410.66
+TXN-00662,2025-08-20,West,Infecta-Guard 250mg,Rohan Desai,Retail Pharmacy,41,142.41,0.07,4605.36,5430.09
+TXN-00663,2025-08-22,East,Glucobal 500mg,Arjun Bose,Distributor,158,93.88,0.2,15414.95,11866.43
+TXN-00664,2025-08-22,East,Neurocalm 50mg,Ananya Das,Hospital,32,310.21,0.1,12314.22,8934.05
+TXN-00665,2025-08-22,North,Respiclear Inhaler,Aarav Mehta,Hospital,34,410.48,0.12,18043.8,12281.56
+TXN-00666,2025-08-22,South,Hydralyte-Plus ORS,Karthik Iyer,Clinic,34,35.05,0.04,1456.79,1144.03
+TXN-00667,2025-08-22,South,Infecta-Guard 250mg,Lakshmi Nair,Clinic,36,143.92,0.01,2781.87,5129.31
+TXN-00668,2025-08-23,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,110,34.99,0.12,5382.61,3387.03
+TXN-00669,2025-08-23,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,13,426.51,0.07,7014.62,5156.51
+TXN-00670,2025-08-24,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,28,189.62,0.03,5507.57,5150.08
+TXN-00671,2025-08-24,North,Glucobal 500mg,Simran Kaur,Hospital,98,95.41,0.13,10017.31,8134.66
+TXN-00672,2025-08-25,East,Respiclear Inhaler,Ananya Das,Clinic,11,425.17,0.04,2972.88,4489.8
+TXN-00673,2025-08-25,North,Cardiozen 10mg,Simran Kaur,Clinic,12,187.12,0.04,3268.21,2155.62
+TXN-00674,2025-08-25,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,26,183.95,0.05,5276.16,4543.56
+TXN-00675,2025-08-25,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,14,428.1,0.04,6749.11,5753.66
+TXN-00676,2025-08-25,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,12,408.34,0.06,6215.68,4606.08
+TXN-00677,2025-08-26,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,41,95.31,0.02,4214.02,3829.56
+TXN-00678,2025-08-26,North,Respiclear Inhaler,Simran Kaur,Retail Pharmacy,9,409.19,0.08,7323.17,3388.09
+TXN-00679,2025-08-26,South,Neurocalm 50mg,Lakshmi Nair,Hospital,43,311.76,0.13,15991.61,11662.94
+TXN-00680,2025-08-26,West,Infecta-Guard 250mg,Priya Joshi,Retail Pharmacy,47,141.58,0.03,4450.98,6454.63
+TXN-00681,2025-08-28,North,Infecta-Guard 250mg,Simran Kaur,Distributor,236,137.55,0.1,22726.77,29215.62
+TXN-00682,2025-08-29,Central,Hydralyte-Plus ORS,Vikram Tiwari,Clinic,22,34.33,0.0,1014.92,755.26
+TXN-00683,2025-08-29,East,Cardiozen 10mg,Ananya Das,Distributor,111,180.98,0.12,18954.44,17678.13
+TXN-00684,2025-08-29,East,Respiclear Inhaler,Arjun Bose,Distributor,45,417.48,0.18,25652.49,15405.01
+TXN-00685,2025-08-29,North,Respiclear Inhaler,Aarav Mehta,Distributor,55,424.56,0.13,34600.29,20315.2
+TXN-00686,2025-08-29,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,24,304.5,0.02,6751.38,7161.84
+TXN-00687,2025-08-29,West,Cardiozen 10mg,Priya Joshi,Retail Pharmacy,32,182.48,0.02,5578.95,5722.57
+TXN-00688,2025-08-29,West,Infecta-Guard 250mg,Priya Joshi,Retail Pharmacy,51,140.65,0.01,4538.92,7101.42
+TXN-00689,2025-08-31,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,15,409.01,0.02,6795.08,6012.45
+TXN-00690,2025-08-31,South,Cardiozen 10mg,Karthik Iyer,Distributor,140,186.91,0.17,27995.52,21718.94
+TXN-00691,2025-09-01,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,35,92.88,0.04,3882.1,3120.77
+TXN-00692,2025-09-03,Central,Neurocalm 50mg,Vikram Tiwari,Hospital,29,306.31,0.06,11440.8,8350.01
+TXN-00693,2025-09-03,Central,Neurocalm 50mg,Neha Verma,Hospital,24,309.41,0.08,10588.11,6831.77
+TXN-00694,2025-09-03,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,310,35.16,0.12,11467.96,9591.65
+TXN-00695,2025-09-03,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,20,310.21,0.04,7048.63,5956.03
+TXN-00696,2025-09-03,North,Neurocalm 50mg,Simran Kaur,Hospital,50,303.57,0.09,15719.59,13812.44
+TXN-00697,2025-09-04,Central,Infecta-Guard 250mg,Vikram Tiwari,Distributor,123,138.71,0.18,15329.37,13990.29
+TXN-00698,2025-09-04,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,35,182.55,0.06,5731.82,6005.9
+TXN-00699,2025-09-04,South,Glucobal 500mg,Lakshmi Nair,Distributor,178,97.02,0.11,19861.38,15369.91
+TXN-00700,2025-09-05,Central,Glucobal 500mg,Neha Verma,Hospital,69,94.74,0.08,6445.62,6014.1
+TXN-00701,2025-09-05,East,Respiclear Inhaler,Ananya Das,Hospital,32,428.56,0.11,12635.32,12205.39
+TXN-00702,2025-09-05,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,27,184.39,0.02,5769.55,4878.96
+TXN-00703,2025-09-05,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,23,180.7,0.02,5256.53,4072.98
+TXN-00704,2025-09-05,West,Hydralyte-Plus ORS,Priya Joshi,Retail Pharmacy,55,35.32,0.0,2208.76,1942.6
+TXN-00705,2025-09-06,East,Hydralyte-Plus ORS,Ananya Das,Retail Pharmacy,46,34.73,0.01,1690.28,1581.6
+TXN-00706,2025-09-06,North,Infecta-Guard 250mg,Simran Kaur,Distributor,200,135.84,0.14,21271.31,23364.48
+TXN-00707,2025-09-06,South,Cardiozen 10mg,Karthik Iyer,Hospital,75,181.9,0.06,12421.15,12823.95
+TXN-00708,2025-09-07,East,Neurocalm 50mg,Arjun Bose,Hospital,25,319.0,0.1,12396.16,7177.5
+TXN-00709,2025-09-08,North,Cardiozen 10mg,Simran Kaur,Distributor,149,183.56,0.14,26813.06,23521.38
+TXN-00710,2025-09-09,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,38,93.23,0.07,3714.06,3294.75
+TXN-00711,2025-09-09,South,Glucobal 500mg,Lakshmi Nair,Distributor,206,93.55,0.16,17591.21,16187.89
+TXN-00712,2025-09-09,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,28,185.64,0.01,4980.55,5145.94
+TXN-00713,2025-09-09,West,Hydralyte-Plus ORS,Priya Joshi,Clinic,39,35.28,0.03,1353.31,1334.64
+TXN-00714,2025-09-10,Central,Hydralyte-Plus ORS,Neha Verma,Distributor,177,34.01,0.1,8174.21,5417.79
+TXN-00715,2025-09-10,East,Hydralyte-Plus ORS,Arjun Bose,Distributor,200,35.55,0.12,8031.59,6256.8
+TXN-00716,2025-09-10,South,Glucobal 500mg,Lakshmi Nair,Hospital,104,97.42,0.15,9250.98,8611.93
+TXN-00717,2025-09-10,South,Infecta-Guard 250mg,Karthik Iyer,Retail Pharmacy,52,137.24,0.07,4542.85,6636.93
+TXN-00718,2025-09-10,West,Respiclear Inhaler,Priya Joshi,Hospital,41,428.32,0.07,16613.59,16331.84
+TXN-00719,2025-09-11,Central,Infecta-Guard 250mg,Neha Verma,Retail Pharmacy,27,143.4,0.05,3363.64,3678.21
+TXN-00720,2025-09-11,Central,Neurocalm 50mg,Neha Verma,Retail Pharmacy,8,301.55,0.03,4965.96,2340.03
+TXN-00721,2025-09-11,West,Respiclear Inhaler,Priya Joshi,Clinic,10,420.7,0.04,3998.75,4038.72
+TXN-00722,2025-09-12,Central,Respiclear Inhaler,Vikram Tiwari,Distributor,57,421.43,0.11,24165.02,21379.14
+TXN-00723,2025-09-12,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,146,35.89,0.11,5722.89,4663.55
+TXN-00724,2025-09-12,South,Hydralyte-Plus ORS,Karthik Iyer,Hospital,139,35.81,0.06,5729.64,4678.93
+TXN-00725,2025-09-13,Central,Neurocalm 50mg,Vikram Tiwari,Retail Pharmacy,8,303.61,0.07,4824.25,2258.86
+TXN-00726,2025-09-13,East,Neurocalm 50mg,Ananya Das,Hospital,42,307.61,0.09,12307.94,11756.85
+TXN-00727,2025-09-13,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,40,95.33,0.03,3919.77,3698.8
+TXN-00728,2025-09-13,North,Neurocalm 50mg,Aarav Mehta,Clinic,15,316.52,0.0,4211.76,4747.8
+TXN-00729,2025-09-13,South,Neurocalm 50mg,Lakshmi Nair,Retail Pharmacy,26,314.42,0.07,6696.73,7602.68
+TXN-00730,2025-09-13,West,Infecta-Guard 250mg,Priya Joshi,Distributor,194,137.87,0.2,21907.7,21397.42
+TXN-00731,2025-09-15,East,Respiclear Inhaler,Arjun Bose,Retail Pharmacy,11,411.63,0.02,5157.69,4437.37
+TXN-00732,2025-09-15,North,Neurocalm 50mg,Simran Kaur,Distributor,85,303.9,0.15,31827.55,21956.78
+TXN-00733,2025-09-15,West,Glucobal 500mg,Priya Joshi,Hospital,103,92.78,0.06,8476.47,8982.96
+TXN-00734,2025-09-15,West,Infecta-Guard 250mg,Priya Joshi,Hospital,107,138.07,0.08,11063.59,13591.61
+TXN-00735,2025-09-16,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,19,422.39,0.05,7473.63,7624.14
+TXN-00736,2025-09-16,South,Hydralyte-Plus ORS,Karthik Iyer,Hospital,138,35.59,0.08,5694.8,4518.51
+TXN-00737,2025-09-17,East,Respiclear Inhaler,Arjun Bose,Hospital,21,419.78,0.05,12265.61,8374.61
+TXN-00738,2025-09-17,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,20,188.38,0.02,5801.57,3692.25
+TXN-00739,2025-09-17,North,Hydralyte-Plus ORS,Aarav Mehta,Retail Pharmacy,53,34.28,0.03,2434.24,1762.33
+TXN-00740,2025-09-17,South,Neurocalm 50mg,Karthik Iyer,Hospital,48,307.68,0.05,14951.12,14030.21
+TXN-00741,2025-09-17,West,Neurocalm 50mg,Priya Joshi,Clinic,9,313.23,0.01,3886.96,2790.88
+TXN-00742,2025-09-18,East,Cardiozen 10mg,Ananya Das,Clinic,13,181.96,0.04,2453.45,2270.86
+TXN-00743,2025-09-18,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,11,427.9,0.01,6550.4,4659.83
+TXN-00744,2025-09-19,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,53,35.04,0.01,2502.38,1838.55
+TXN-00745,2025-09-19,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,40,94.51,0.04,3643.28,3629.18
+TXN-00746,2025-09-19,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,31,92.27,0.03,3826.19,2774.56
+TXN-00747,2025-09-19,West,Respiclear Inhaler,Priya Joshi,Retail Pharmacy,18,411.49,0.01,6727.06,7332.75
+TXN-00748,2025-09-20,East,Hydralyte-Plus ORS,Arjun Bose,Distributor,195,35.26,0.11,8724.06,6119.37
+TXN-00749,2025-09-20,South,Respiclear Inhaler,Karthik Iyer,Hospital,37,420.02,0.07,16292.68,14452.89
+TXN-00750,2025-09-20,West,Glucobal 500mg,Rohan Desai,Distributor,160,95.31,0.15,18758.84,12962.16
+TXN-00751,2025-09-21,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,17,310.92,0.05,5743.66,5021.36
+TXN-00752,2025-09-22,North,Glucobal 500mg,Simran Kaur,Hospital,98,93.89,0.12,10391.05,8097.07
+TXN-00753,2025-09-22,West,Respiclear Inhaler,Priya Joshi,Clinic,7,430.96,0.04,4104.11,2896.05
+TXN-00754,2025-09-22,West,Respiclear Inhaler,Priya Joshi,Hospital,49,427.54,0.12,15004.93,18435.52
+TXN-00755,2025-09-23,Central,Cardiozen 10mg,Vikram Tiwari,Retail Pharmacy,27,181.64,0.01,3828.77,4855.24
+TXN-00756,2025-09-23,North,Cardiozen 10mg,Simran Kaur,Distributor,160,188.59,0.11,25772.34,26855.22
+TXN-00757,2025-09-23,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,44,96.65,0.07,3902.5,3954.92
+TXN-00758,2025-09-24,Central,Glucobal 500mg,Vikram Tiwari,Hospital,59,93.08,0.11,7027.35,4887.63
+TXN-00759,2025-09-24,South,Infecta-Guard 250mg,Karthik Iyer,Hospital,105,139.14,0.11,10353.98,13002.63
+TXN-00760,2025-09-25,North,Infecta-Guard 250mg,Simran Kaur,Retail Pharmacy,46,137.24,0.03,5004.06,6123.65
+TXN-00761,2025-09-25,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,19,304.86,0.01,6389.24,5734.42
+TXN-00762,2025-09-26,South,Infecta-Guard 250mg,Lakshmi Nair,Clinic,19,139.66,0.01,2548.52,2627.0
+TXN-00763,2025-09-27,East,Neurocalm 50mg,Ananya Das,Clinic,10,311.3,0.03,3146.59,3019.61
+TXN-00764,2025-09-27,West,Cardiozen 10mg,Rohan Desai,Distributor,98,185.41,0.13,24976.9,15808.06
+TXN-00765,2025-09-28,Central,Hydralyte-Plus ORS,Neha Verma,Retail Pharmacy,40,34.01,0.07,1615.57,1265.17
+TXN-00766,2025-09-28,Central,Respiclear Inhaler,Vikram Tiwari,Hospital,30,408.18,0.08,11428.49,11265.77
+TXN-00767,2025-09-28,East,Respiclear Inhaler,Arjun Bose,Hospital,25,431.62,0.06,12715.84,10143.07
+TXN-00768,2025-09-28,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,27,305.17,0.03,6156.57,7992.4
+TXN-00769,2025-09-29,North,Neurocalm 50mg,Aarav Mehta,Hospital,46,302.11,0.12,17142.11,12229.41
+TXN-00770,2025-09-30,East,Hydralyte-Plus ORS,Ananya Das,Distributor,206,34.96,0.15,8862.68,6121.5
+TXN-00771,2025-09-30,North,Respiclear Inhaler,Simran Kaur,Hospital,38,409.13,0.14,16397.79,13370.37
+TXN-00772,2025-09-30,South,Glucobal 500mg,Lakshmi Nair,Clinic,18,93.16,0.01,2236.57,1660.11
+TXN-00773,2025-09-30,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,22,185.3,0.02,5109.66,3995.07
+TXN-00774,2025-10-01,East,Glucobal 500mg,Ananya Das,Hospital,71,95.85,0.1,6877.84,6124.82
+TXN-00775,2025-10-01,North,Infecta-Guard 250mg,Aarav Mehta,Hospital,81,136.98,0.06,11622.76,10429.66
+TXN-00776,2025-10-01,South,Respiclear Inhaler,Lakshmi Nair,Distributor,78,427.09,0.11,32507.25,29648.59
+TXN-00777,2025-10-02,West,Neurocalm 50mg,Priya Joshi,Clinic,8,303.88,0.03,3430.45,2358.11
+TXN-00778,2025-10-04,Central,Neurocalm 50mg,Neha Verma,Hospital,36,305.27,0.13,10534.25,9561.06
+TXN-00779,2025-10-04,South,Glucobal 500mg,Lakshmi Nair,Hospital,110,96.0,0.08,9408.54,9715.2
+TXN-00780,2025-10-04,South,Glucobal 500mg,Karthik Iyer,Hospital,102,97.35,0.1,9918.21,8936.73
+TXN-00781,2025-10-05,Central,Infecta-Guard 250mg,Vikram Tiwari,Retail Pharmacy,17,139.61,0.07,3416.61,2207.23
+TXN-00782,2025-10-05,Central,Neurocalm 50mg,Neha Verma,Hospital,35,301.37,0.13,11519.66,9176.72
+TXN-00783,2025-10-05,East,Hydralyte-Plus ORS,Arjun Bose,Hospital,118,34.65,0.06,4271.04,3843.38
+TXN-00784,2025-10-05,East,Respiclear Inhaler,Arjun Bose,Distributor,72,414.36,0.15,24602.23,25358.83
+TXN-00785,2025-10-05,North,Hydralyte-Plus ORS,Aarav Mehta,Clinic,42,34.6,0.01,1484.69,1438.67
+TXN-00786,2025-10-05,North,Neurocalm 50mg,Aarav Mehta,Distributor,124,311.15,0.13,32508.8,33566.86
+TXN-00787,2025-10-05,West,Glucobal 500mg,Rohan Desai,Hospital,75,92.42,0.11,8870.99,6169.04
+TXN-00788,2025-10-05,West,Respiclear Inhaler,Rohan Desai,Distributor,72,424.51,0.17,31392.1,25368.72
+TXN-00789,2025-10-06,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,30,184.78,0.08,5410.06,5099.93
+TXN-00790,2025-10-06,South,Cardiozen 10mg,Karthik Iyer,Distributor,139,189.21,0.14,25427.07,22618.16
+TXN-00791,2025-10-06,South,Cardiozen 10mg,Karthik Iyer,Hospital,75,182.5,0.13,13268.51,11908.12
+TXN-00792,2025-10-07,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,39,93.89,0.04,3956.42,3515.24
+TXN-00793,2025-10-08,Central,Neurocalm 50mg,Vikram Tiwari,Hospital,37,301.53,0.15,11774.44,9483.12
+TXN-00794,2025-10-10,Central,Respiclear Inhaler,Neha Verma,Clinic,8,418.5,0.03,2962.37,3247.56
+TXN-00795,2025-10-10,South,Respiclear Inhaler,Lakshmi Nair,Clinic,7,422.07,0.01,4246.18,2924.95
+TXN-00796,2025-10-11,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,17,312.13,0.07,6660.37,4934.78
+TXN-00797,2025-10-11,West,Glucobal 500mg,Priya Joshi,Distributor,197,96.87,0.13,17123.34,16602.55
+TXN-00798,2025-10-13,North,Hydralyte-Plus ORS,Aarav Mehta,Retail Pharmacy,61,35.94,0.05,2395.44,2082.72
+TXN-00799,2025-10-13,South,Cardiozen 10mg,Karthik Iyer,Distributor,155,181.62,0.16,25733.72,23646.92
+TXN-00800,2025-10-13,South,Infecta-Guard 250mg,Karthik Iyer,Retail Pharmacy,28,143.1,0.05,4424.38,3806.46
+TXN-00801,2025-10-13,West,Cardiozen 10mg,Rohan Desai,Hospital,71,182.74,0.08,11726.45,11936.58
+TXN-00802,2025-10-14,East,Cardiozen 10mg,Ananya Das,Hospital,63,186.77,0.14,10110.25,10119.2
+TXN-00803,2025-10-15,Central,Glucobal 500mg,Vikram Tiwari,Distributor,127,92.99,0.17,13525.97,9802.08
+TXN-00804,2025-10-15,North,Cardiozen 10mg,Simran Kaur,Clinic,9,190.42,0.03,3391.79,1662.37
+TXN-00805,2025-10-15,North,Glucobal 500mg,Aarav Mehta,Hospital,122,92.18,0.05,10247.45,10683.66
+TXN-00806,2025-10-15,South,Respiclear Inhaler,Karthik Iyer,Hospital,44,420.86,0.07,16274.59,17221.59
+TXN-00807,2025-10-16,Central,Hydralyte-Plus ORS,Vikram Tiwari,Retail Pharmacy,33,35.35,0.04,1571.77,1119.89
+TXN-00808,2025-10-16,Central,Respiclear Inhaler,Neha Verma,Clinic,4,424.93,0.02,3031.98,1665.73
+TXN-00809,2025-10-16,North,Cardiozen 10mg,Aarav Mehta,Hospital,76,186.45,0.14,14605.57,12186.37
+TXN-00810,2025-10-16,North,Respiclear Inhaler,Simran Kaur,Clinic,10,411.94,0.04,4198.2,3954.62
+TXN-00811,2025-10-16,South,Hydralyte-Plus ORS,Lakshmi Nair,Hospital,143,33.99,0.15,5750.28,4131.48
+TXN-00812,2025-10-16,West,Cardiozen 10mg,Rohan Desai,Hospital,71,188.58,0.1,11910.06,12050.26
+TXN-00813,2025-10-16,West,Glucobal 500mg,Rohan Desai,Hospital,69,94.36,0.14,8786.19,5599.32
+TXN-00814,2025-10-17,East,Glucobal 500mg,Arjun Bose,Hospital,64,97.76,0.13,7785.23,5443.28
+TXN-00815,2025-10-17,East,Infecta-Guard 250mg,Arjun Bose,Clinic,9,142.94,0.01,2173.92,1273.6
+TXN-00816,2025-10-17,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,26,319.01,0.03,6412.97,8045.43
+TXN-00817,2025-10-17,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,30,180.18,0.06,5291.24,5081.08
+TXN-00818,2025-10-18,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,39,94.63,0.06,3891.21,3469.14
+TXN-00819,2025-10-19,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,31,311.66,0.02,6954.63,9468.23
+TXN-00820,2025-10-19,South,Hydralyte-Plus ORS,Karthik Iyer,Retail Pharmacy,64,35.79,0.01,2153.79,2267.65
+TXN-00821,2025-10-20,Central,Glucobal 500mg,Vikram Tiwari,Clinic,16,96.67,0.02,1665.07,1515.79
+TXN-00822,2025-10-20,East,Neurocalm 50mg,Arjun Bose,Hospital,34,314.63,0.07,12714.85,9948.6
+TXN-00823,2025-10-20,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,36,182.41,0.04,5740.21,6304.09
+TXN-00824,2025-10-20,South,Infecta-Guard 250mg,Lakshmi Nair,Hospital,69,137.94,0.05,11216.6,9041.97
+TXN-00825,2025-10-20,West,Glucobal 500mg,Priya Joshi,Retail Pharmacy,39,97.35,0.07,3566.23,3530.88
+TXN-00826,2025-10-21,Central,Neurocalm 50mg,Vikram Tiwari,Clinic,14,305.49,0.0,2981.61,4276.86
+TXN-00827,2025-10-22,Central,Cardiozen 10mg,Neha Verma,Clinic,12,180.7,0.04,2404.76,2081.66
+TXN-00828,2025-10-22,Central,Hydralyte-Plus ORS,Neha Verma,Retail Pharmacy,46,35.33,0.05,1710.89,1543.92
+TXN-00829,2025-10-22,East,Hydralyte-Plus ORS,Arjun Bose,Distributor,230,36.02,0.18,7930.79,6793.37
+TXN-00830,2025-10-22,North,Cardiozen 10mg,Aarav Mehta,Hospital,74,188.84,0.05,14201.03,13275.45
+TXN-00831,2025-10-22,North,Respiclear Inhaler,Simran Kaur,Distributor,88,421.8,0.12,36378.69,32664.19
+TXN-00832,2025-10-23,South,Neurocalm 50mg,Karthik Iyer,Clinic,14,318.52,0.01,3656.17,4414.69
+TXN-00833,2025-10-23,West,Hydralyte-Plus ORS,Priya Joshi,Hospital,138,35.49,0.06,5481.14,4603.76
+TXN-00834,2025-10-24,East,Cardiozen 10mg,Arjun Bose,Retail Pharmacy,33,188.38,0.06,4142.63,5843.55
+TXN-00835,2025-10-24,North,Hydralyte-Plus ORS,Aarav Mehta,Retail Pharmacy,73,34.08,0.07,2222.82,2313.69
+TXN-00836,2025-10-24,North,Respiclear Inhaler,Aarav Mehta,Clinic,15,425.83,0.04,4059.66,6131.95
+TXN-00837,2025-10-24,South,Infecta-Guard 250mg,Lakshmi Nair,Retail Pharmacy,24,138.39,0.03,4497.2,3221.72
+TXN-00838,2025-10-24,South,Infecta-Guard 250mg,Lakshmi Nair,Retail Pharmacy,31,136.07,0.04,4669.61,4049.44
+TXN-00839,2025-10-25,East,Glucobal 500mg,Ananya Das,Hospital,76,95.56,0.08,7469.24,6681.56
+TXN-00840,2025-10-25,East,Infecta-Guard 250mg,Arjun Bose,Distributor,122,139.33,0.18,17917.01,13938.57
+TXN-00841,2025-10-25,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,42,92.52,0.01,4162.09,3846.98
+TXN-00842,2025-10-25,South,Infecta-Guard 250mg,Karthik Iyer,Retail Pharmacy,46,139.95,0.0,4395.71,6437.7
+TXN-00843,2025-10-25,West,Neurocalm 50mg,Priya Joshi,Retail Pharmacy,13,304.1,0.07,6076.39,3676.57
+TXN-00844,2025-10-26,North,Cardiozen 10mg,Aarav Mehta,Hospital,83,183.7,0.08,14587.94,14027.33
+TXN-00845,2025-10-27,Central,Hydralyte-Plus ORS,Vikram Tiwari,Retail Pharmacy,39,35.41,0.07,1719.89,1284.32
+TXN-00846,2025-10-27,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,28,182.27,0.01,4158.28,5052.52
+TXN-00847,2025-10-27,East,Respiclear Inhaler,Arjun Bose,Retail Pharmacy,9,417.01,0.04,5317.2,3602.97
+TXN-00848,2025-10-27,East,Respiclear Inhaler,Ananya Das,Hospital,43,410.96,0.09,12537.68,16080.86
+TXN-00849,2025-10-27,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,45,92.34,0.05,3783.64,3947.54
+TXN-00850,2025-10-29,Central,Infecta-Guard 250mg,Neha Verma,Retail Pharmacy,21,139.03,0.0,3391.34,2919.63
+TXN-00851,2025-10-29,East,Respiclear Inhaler,Ananya Das,Retail Pharmacy,13,420.71,0.01,5063.33,5414.54
+TXN-00852,2025-10-29,South,Cardiozen 10mg,Karthik Iyer,Hospital,91,188.07,0.06,13565.97,16087.51
+TXN-00853,2025-10-29,South,Infecta-Guard 250mg,Karthik Iyer,Distributor,155,136.84,0.14,21283.39,18240.77
+TXN-00854,2025-10-30,North,Hydralyte-Plus ORS,Simran Kaur,Hospital,147,35.02,0.07,5682.0,4787.58
+TXN-00855,2025-11-01,North,Infecta-Guard 250mg,Simran Kaur,Distributor,126,140.34,0.15,23664.37,15030.41
+TXN-00856,2025-11-02,Central,Neurocalm 50mg,Vikram Tiwari,Distributor,65,306.82,0.12,23822.09,17550.1
+TXN-00857,2025-11-02,Central,Neurocalm 50mg,Vikram Tiwari,Retail Pharmacy,9,312.41,0.07,4699.91,2614.87
+TXN-00858,2025-11-03,North,Cardiozen 10mg,Aarav Mehta,Retail Pharmacy,42,184.73,0.04,5365.65,7448.31
+TXN-00859,2025-11-03,North,Neurocalm 50mg,Aarav Mehta,Retail Pharmacy,19,314.16,0.06,6908.15,5610.9
+TXN-00860,2025-11-04,North,Neurocalm 50mg,Aarav Mehta,Hospital,42,314.04,0.07,16278.69,12266.4
+TXN-00861,2025-11-04,South,Cardiozen 10mg,Lakshmi Nair,Clinic,22,189.61,0.03,3199.76,4046.28
+TXN-00862,2025-11-06,Central,Respiclear Inhaler,Vikram Tiwari,Distributor,59,417.16,0.15,23773.15,20920.57
+TXN-00863,2025-11-06,East,Cardiozen 10mg,Arjun Bose,Clinic,17,184.7,0.02,2443.64,3077.1
+TXN-00864,2025-11-06,South,Respiclear Inhaler,Karthik Iyer,Retail Pharmacy,19,414.14,0.04,6581.01,7553.91
+TXN-00865,2025-11-07,East,Cardiozen 10mg,Ananya Das,Distributor,111,187.85,0.19,21436.99,16889.59
+TXN-00866,2025-11-07,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,61,34.1,0.05,2214.29,1976.09
+TXN-00867,2025-11-07,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,310,34.84,0.15,11528.71,9180.34
+TXN-00868,2025-11-07,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,41,94.86,0.02,4008.53,3811.47
+TXN-00869,2025-11-07,South,Respiclear Inhaler,Lakshmi Nair,Clinic,14,408.64,0.02,4329.25,5606.54
+TXN-00870,2025-11-08,Central,Hydralyte-Plus ORS,Neha Verma,Retail Pharmacy,36,35.51,0.02,1577.15,1252.79
+TXN-00871,2025-11-08,East,Cardiozen 10mg,Ananya Das,Retail Pharmacy,22,188.03,0.01,4358.41,4095.29
+TXN-00872,2025-11-08,West,Infecta-Guard 250mg,Rohan Desai,Hospital,34,137.34,0.13,10463.8,4062.52
+TXN-00873,2025-11-09,East,Hydralyte-Plus ORS,Ananya Das,Retail Pharmacy,49,35.26,0.02,1700.95,1693.19
+TXN-00874,2025-11-09,West,Glucobal 500mg,Rohan Desai,Distributor,163,95.75,0.12,18214.3,13734.38
+TXN-00875,2025-11-10,East,Glucobal 500mg,Ananya Das,Hospital,77,93.1,0.15,7042.47,6093.4
+TXN-00876,2025-11-10,South,Glucobal 500mg,Karthik Iyer,Clinic,24,92.18,0.01,2272.15,2190.2
+TXN-00877,2025-11-11,Central,Hydralyte-Plus ORS,Neha Verma,Distributor,191,34.02,0.1,7681.74,5848.04
+TXN-00878,2025-11-11,North,Glucobal 500mg,Aarav Mehta,Retail Pharmacy,44,95.18,0.06,4337.88,3936.64
+TXN-00879,2025-11-11,West,Neurocalm 50mg,Rohan Desai,Retail Pharmacy,10,305.54,0.03,6155.15,2963.74
+TXN-00880,2025-11-12,Central,Cardiozen 10mg,Neha Verma,Clinic,9,186.63,0.02,2278.21,1646.08
+TXN-00881,2025-11-12,South,Cardiozen 10mg,Lakshmi Nair,Hospital,91,182.84,0.09,12276.93,15140.98
+TXN-00882,2025-11-12,South,Respiclear Inhaler,Lakshmi Nair,Clinic,14,421.27,0.05,4203.73,5602.89
+TXN-00883,2025-11-12,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,27,96.87,0.04,3680.92,2510.87
+TXN-00884,2025-11-13,Central,Glucobal 500mg,Neha Verma,Retail Pharmacy,20,93.05,0.08,2889.59,1712.12
+TXN-00885,2025-11-13,North,Neurocalm 50mg,Simran Kaur,Hospital,50,300.74,0.07,16688.73,13984.41
+TXN-00886,2025-11-13,West,Hydralyte-Plus ORS,Rohan Desai,Hospital,105,35.69,0.06,5224.16,3522.6
+TXN-00887,2025-11-13,West,Infecta-Guard 250mg,Rohan Desai,Hospital,54,142.12,0.12,10261.66,6753.54
+TXN-00888,2025-11-14,East,Cardiozen 10mg,Arjun Bose,Hospital,60,187.61,0.11,9942.22,10018.37
+TXN-00889,2025-11-14,North,Infecta-Guard 250mg,Aarav Mehta,Distributor,131,142.03,0.18,24185.93,15256.86
+TXN-00890,2025-11-15,North,Cardiozen 10mg,Simran Kaur,Hospital,80,188.19,0.12,12772.55,13248.58
+TXN-00891,2025-11-16,East,Cardiozen 10mg,Arjun Bose,Retail Pharmacy,30,179.73,0.02,4067.91,5284.06
+TXN-00892,2025-11-16,East,Neurocalm 50mg,Ananya Das,Clinic,10,314.14,0.05,3099.06,2984.33
+TXN-00893,2025-11-16,West,Hydralyte-Plus ORS,Rohan Desai,Hospital,120,34.44,0.11,5411.73,3678.19
+TXN-00894,2025-11-17,Central,Infecta-Guard 250mg,Vikram Tiwari,Retail Pharmacy,8,136.13,0.06,3307.75,1023.7
+TXN-00895,2025-11-17,East,Infecta-Guard 250mg,Ananya Das,Clinic,21,135.87,0.0,2223.33,2853.27
+TXN-00896,2025-11-17,North,Respiclear Inhaler,Aarav Mehta,Distributor,118,431.95,0.19,33095.17,41285.78
+TXN-00897,2025-11-17,South,Infecta-Guard 250mg,Karthik Iyer,Hospital,55,137.9,0.13,11029.05,6598.52
+TXN-00898,2025-11-17,West,Infecta-Guard 250mg,Priya Joshi,Hospital,58,138.16,0.06,11101.33,7532.48
+TXN-00899,2025-11-18,South,Glucobal 500mg,Lakshmi Nair,Hospital,95,94.46,0.09,9125.53,8166.07
+TXN-00900,2025-11-18,South,Respiclear Inhaler,Lakshmi Nair,Retail Pharmacy,22,420.17,0.03,7166.57,8966.43
+TXN-00901,2025-11-19,East,Hydralyte-Plus ORS,Ananya Das,Hospital,117,35.23,0.15,4312.23,3503.62
+TXN-00902,2025-11-19,East,Neurocalm 50mg,Arjun Bose,Distributor,87,313.79,0.14,24126.06,23477.77
+TXN-00903,2025-11-19,South,Respiclear Inhaler,Lakshmi Nair,Hospital,47,414.1,0.11,15593.69,17321.8
+TXN-00904,2025-11-20,East,Infecta-Guard 250mg,Arjun Bose,Distributor,97,139.6,0.11,17407.46,12051.67
+TXN-00905,2025-11-20,North,Glucobal 500mg,Aarav Mehta,Clinic,24,95.02,0.05,2483.57,2166.46
+TXN-00906,2025-11-21,East,Neurocalm 50mg,Arjun Bose,Retail Pharmacy,11,315.49,0.02,5020.85,3400.98
+TXN-00907,2025-11-21,South,Hydralyte-Plus ORS,Lakshmi Nair,Distributor,270,34.2,0.1,10694.36,8310.6
+TXN-00908,2025-11-22,North,Cardiozen 10mg,Simran Kaur,Hospital,71,184.77,0.07,14587.98,12200.36
+TXN-00909,2025-11-23,Central,Infecta-Guard 250mg,Vikram Tiwari,Distributor,68,142.21,0.13,15903.7,8413.14
+TXN-00910,2025-11-24,North,Neurocalm 50mg,Simran Kaur,Distributor,99,318.82,0.1,34379.02,28406.86
+TXN-00911,2025-11-24,West,Cardiozen 10mg,Priya Joshi,Distributor,147,187.28,0.19,25612.69,22299.43
+TXN-00912,2025-11-25,North,Hydralyte-Plus ORS,Aarav Mehta,Clinic,40,34.89,0.04,1500.86,1339.78
+TXN-00913,2025-11-25,South,Infecta-Guard 250mg,Karthik Iyer,Retail Pharmacy,35,143.18,0.05,4638.39,4760.73
+TXN-00914,2025-11-25,West,Cardiozen 10mg,Rohan Desai,Clinic,22,184.93,0.02,2993.02,3987.09
+TXN-00915,2025-11-26,Central,Hydralyte-Plus ORS,Neha Verma,Clinic,26,35.73,0.05,1017.14,882.53
+TXN-00916,2025-11-26,East,Infecta-Guard 250mg,Arjun Bose,Hospital,53,140.55,0.14,8777.92,6406.27
+TXN-00917,2025-11-26,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,31,182.71,0.05,5641.69,5380.81
+TXN-00918,2025-11-26,West,Respiclear Inhaler,Rohan Desai,Retail Pharmacy,14,420.67,0.03,6666.03,5712.7
+TXN-00919,2025-11-27,West,Hydralyte-Plus ORS,Rohan Desai,Retail Pharmacy,47,34.22,0.01,2193.63,1592.26
+TXN-00920,2025-11-28,North,Glucobal 500mg,Simran Kaur,Retail Pharmacy,47,92.68,0.02,4307.17,4268.84
+TXN-00921,2025-11-28,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,11,311.88,0.05,6009.73,3259.15
+TXN-00922,2025-11-29,West,Glucobal 500mg,Rohan Desai,Retail Pharmacy,35,95.62,0.08,3757.46,3078.96
+TXN-00923,2025-11-30,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,155,34.35,0.06,5670.68,5004.8
+TXN-00924,2025-12-01,Central,Hydralyte-Plus ORS,Vikram Tiwari,Hospital,93,34.72,0.05,3712.43,3067.51
+TXN-00925,2025-12-01,South,Cardiozen 10mg,Karthik Iyer,Distributor,145,184.61,0.19,26747.58,21682.44
+TXN-00926,2025-12-01,West,Infecta-Guard 250mg,Rohan Desai,Retail Pharmacy,23,137.51,0.07,4499.2,2941.34
+TXN-00927,2025-12-01,West,Infecta-Guard 250mg,Rohan Desai,Clinic,18,139.69,0.01,2548.89,2489.28
+TXN-00928,2025-12-02,Central,Cardiozen 10mg,Vikram Tiwari,Retail Pharmacy,18,182.76,0.06,3836.12,3092.3
+TXN-00929,2025-12-02,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,39,183.82,0.15,9179.73,6093.63
+TXN-00930,2025-12-02,South,Respiclear Inhaler,Lakshmi Nair,Hospital,48,431.65,0.07,16730.42,19268.86
+TXN-00931,2025-12-02,West,Hydralyte-Plus ORS,Rohan Desai,Retail Pharmacy,43,34.63,0.02,2025.53,1459.31
+TXN-00932,2025-12-03,Central,Infecta-Guard 250mg,Neha Verma,Retail Pharmacy,6,141.04,0.04,3443.63,812.39
+TXN-00933,2025-12-03,East,Cardiozen 10mg,Ananya Das,Hospital,63,188.86,0.05,10534.87,11303.27
+TXN-00934,2025-12-03,North,Infecta-Guard 250mg,Simran Kaur,Clinic,10,138.7,0.02,2876.85,1359.26
+TXN-00935,2025-12-04,East,Infecta-Guard 250mg,Ananya Das,Hospital,36,137.68,0.1,8299.78,4460.83
+TXN-00936,2025-12-04,North,Neurocalm 50mg,Simran Kaur,Distributor,83,313.81,0.15,31627.62,22139.3
+TXN-00937,2025-12-05,Central,Hydralyte-Plus ORS,Neha Verma,Hospital,90,35.92,0.14,3814.75,2780.21
+TXN-00938,2025-12-05,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,41,96.82,0.07,4138.89,3691.75
+TXN-00939,2025-12-06,North,Hydralyte-Plus ORS,Simran Kaur,Retail Pharmacy,64,35.31,0.0,2378.34,2259.84
+TXN-00940,2025-12-07,Central,Cardiozen 10mg,Vikram Tiwari,Hospital,54,181.62,0.11,9265.5,8728.66
+TXN-00941,2025-12-07,Central,Neurocalm 50mg,Vikram Tiwari,Clinic,3,316.25,0.01,2850.18,939.26
+TXN-00942,2025-12-07,North,Respiclear Inhaler,Simran Kaur,Retail Pharmacy,21,431.49,0.04,7369.63,8698.84
+TXN-00943,2025-12-07,West,Hydralyte-Plus ORS,Rohan Desai,Distributor,207,35.88,0.1,10050.44,6684.44
+TXN-00944,2025-12-08,Central,Glucobal 500mg,Neha Verma,Clinic,19,93.05,0.01,1819.24,1750.27
+TXN-00945,2025-12-08,South,Respiclear Inhaler,Karthik Iyer,Clinic,17,415.91,0.01,4222.43,6999.77
+TXN-00946,2025-12-09,Central,Cardiozen 10mg,Neha Verma,Hospital,49,183.09,0.14,9236.93,7715.41
+TXN-00947,2025-12-09,Central,Respiclear Inhaler,Vikram Tiwari,Hospital,30,407.42,0.1,11152.8,11000.34
+TXN-00948,2025-12-09,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,22,97.2,0.03,2929.42,2074.25
+TXN-00949,2025-12-09,North,Hydralyte-Plus ORS,Aarav Mehta,Distributor,271,34.83,0.11,10806.46,8400.65
+TXN-00950,2025-12-09,North,Infecta-Guard 250mg,Aarav Mehta,Retail Pharmacy,31,138.25,0.01,5025.67,4242.89
+TXN-00951,2025-12-09,North,Neurocalm 50mg,Aarav Mehta,Hospital,59,314.62,0.08,17166.76,17077.57
+TXN-00952,2025-12-09,West,Cardiozen 10mg,Priya Joshi,Distributor,164,180.85,0.18,25716.11,24320.71
+TXN-00953,2025-12-09,West,Respiclear Inhaler,Rohan Desai,Hospital,46,419.56,0.14,15742.47,16597.79
+TXN-00954,2025-12-11,Central,Glucobal 500mg,Neha Verma,Retail Pharmacy,31,97.11,0.05,2804.7,2859.89
+TXN-00955,2025-12-11,North,Cardiozen 10mg,Simran Kaur,Distributor,137,181.26,0.19,28040.45,20114.42
+TXN-00956,2025-12-11,South,Cardiozen 10mg,Karthik Iyer,Retail Pharmacy,34,190.31,0.04,5418.49,6211.72
+TXN-00957,2025-12-11,South,Cardiozen 10mg,Karthik Iyer,Distributor,171,188.91,0.17,25662.84,26812.0
+TXN-00958,2025-12-11,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,19,304.76,0.05,6653.94,5500.92
+TXN-00959,2025-12-12,North,Cardiozen 10mg,Aarav Mehta,Clinic,16,182.51,0.01,3658.57,2890.96
+TXN-00960,2025-12-13,Central,Respiclear Inhaler,Vikram Tiwari,Hospital,34,410.68,0.1,11453.98,12566.81
+TXN-00961,2025-12-13,South,Neurocalm 50mg,Karthik Iyer,Retail Pharmacy,21,316.43,0.0,6468.33,6645.03
+TXN-00962,2025-12-14,Central,Respiclear Inhaler,Neha Verma,Distributor,84,422.48,0.14,22377.63,30519.96
+TXN-00963,2025-12-14,South,Glucobal 500mg,Karthik Iyer,Retail Pharmacy,53,93.92,0.04,4120.77,4778.65
+TXN-00964,2025-12-15,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,31,93.44,0.04,2837.29,2780.77
+TXN-00965,2025-12-15,East,Respiclear Inhaler,Arjun Bose,Hospital,57,417.97,0.12,12856.81,20965.38
+TXN-00966,2025-12-15,South,Glucobal 500mg,Lakshmi Nair,Retail Pharmacy,40,96.4,0.03,3892.0,3740.32
+TXN-00967,2025-12-16,Central,Infecta-Guard 250mg,Vikram Tiwari,Hospital,31,138.65,0.08,8026.13,3954.3
+TXN-00968,2025-12-16,South,Cardiozen 10mg,Lakshmi Nair,Retail Pharmacy,26,180.65,0.08,5249.41,4321.15
+TXN-00969,2025-12-17,East,Cardiozen 10mg,Arjun Bose,Retail Pharmacy,33,182.97,0.05,4421.91,5736.11
+TXN-00970,2025-12-17,North,Cardiozen 10mg,Aarav Mehta,Distributor,182,181.2,0.13,25663.71,28691.21
+TXN-00971,2025-12-18,South,Cardiozen 10mg,Karthik Iyer,Hospital,73,180.4,0.07,13044.3,12247.36
+TXN-00972,2025-12-18,South,Hydralyte-Plus ORS,Karthik Iyer,Distributor,284,34.39,0.1,10781.08,8790.08
+TXN-00973,2025-12-19,Central,Glucobal 500mg,Neha Verma,Distributor,124,96.79,0.12,14033.15,10561.72
+TXN-00974,2025-12-19,East,Respiclear Inhaler,Ananya Das,Clinic,16,415.09,0.02,3247.11,6508.61
+TXN-00975,2025-12-19,North,Glucobal 500mg,Simran Kaur,Hospital,121,97.7,0.12,10012.75,10403.1
+TXN-00976,2025-12-19,West,Glucobal 500mg,Priya Joshi,Distributor,212,93.34,0.16,18660.24,16621.99
+TXN-00977,2025-12-20,Central,Hydralyte-Plus ORS,Neha Verma,Distributor,186,35.83,0.11,8349.44,5931.3
+TXN-00978,2025-12-21,East,Glucobal 500mg,Arjun Bose,Retail Pharmacy,30,97.53,0.04,3050.1,2808.86
+TXN-00979,2025-12-21,North,Cardiozen 10mg,Simran Kaur,Retail Pharmacy,25,189.7,0.01,5612.84,4695.08
+TXN-00980,2025-12-21,North,Infecta-Guard 250mg,Simran Kaur,Distributor,128,138.48,0.2,23704.5,14180.35
+TXN-00981,2025-12-21,West,Hydralyte-Plus ORS,Priya Joshi,Retail Pharmacy,54,35.32,0.02,2113.41,1869.13
+TXN-00982,2025-12-22,Central,Respiclear Inhaler,Neha Verma,Retail Pharmacy,10,417.51,0.07,4862.11,3882.84
+TXN-00983,2025-12-22,North,Respiclear Inhaler,Aarav Mehta,Hospital,54,418.13,0.1,15952.39,20321.12
+TXN-00984,2025-12-23,South,Neurocalm 50mg,Karthik Iyer,Hospital,44,316.99,0.08,15235.94,12831.76
+TXN-00985,2025-12-24,North,Infecta-Guard 250mg,Aarav Mehta,Distributor,118,139.31,0.11,22603.49,14630.34
+TXN-00986,2025-12-25,East,Cardiozen 10mg,Arjun Bose,Hospital,63,181.17,0.1,10419.47,10272.34
+TXN-00987,2025-12-25,North,Neurocalm 50mg,Simran Kaur,Retail Pharmacy,20,306.96,0.05,6581.44,5832.24
+TXN-00988,2025-12-25,South,Neurocalm 50mg,Lakshmi Nair,Hospital,50,313.38,0.08,15872.17,14415.48
+TXN-00989,2025-12-26,East,Infecta-Guard 250mg,Arjun Bose,Retail Pharmacy,16,138.9,0.0,3744.63,2222.4
+TXN-00990,2025-12-26,North,Infecta-Guard 250mg,Simran Kaur,Hospital,41,139.08,0.09,11072.01,5189.07
+TXN-00991,2025-12-26,West,Neurocalm 50mg,Priya Joshi,Distributor,90,303.62,0.2,28376.37,21860.64
+TXN-00992,2025-12-27,North,Respiclear Inhaler,Aarav Mehta,Retail Pharmacy,21,420.17,0.01,7264.91,8735.33
+TXN-00993,2025-12-28,Central,Infecta-Guard 250mg,Neha Verma,Distributor,69,139.33,0.1,14938.87,8652.39
+TXN-00994,2025-12-28,East,Neurocalm 50mg,Ananya Das,Retail Pharmacy,8,302.38,0.05,4881.08,2298.09
+TXN-00995,2025-12-28,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,17,183.99,0.08,5142.52,2877.6
+TXN-00996,2025-12-29,North,Hydralyte-Plus ORS,Aarav Mehta,Hospital,146,35.3,0.1,6075.21,4638.42
+TXN-00997,2025-12-30,South,Glucobal 500mg,Karthik Iyer,Hospital,91,92.17,0.08,9554.23,7716.47
+TXN-00998,2025-12-31,Central,Hydralyte-Plus ORS,Neha Verma,Clinic,32,34.55,0.03,993.39,1072.43
+TXN-00999,2025-12-31,West,Cardiozen 10mg,Rohan Desai,Retail Pharmacy,24,184.29,0.06,5116.18,4157.58
+TXN-01000,2025-12-31,West,Neurocalm 50mg,Rohan Desai,Hospital,35,313.02,0.06,14272.61,10298.36

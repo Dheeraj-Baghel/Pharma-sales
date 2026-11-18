@@ -33,7 +33,7 @@ needed for the optional SQL commands; it's preinstalled on macOS and most Linux 
 
 ```bash
 # 1. Get the code
-git clone <repository-url> pharmasales-insight
+git clone https://github.com/Dheeraj-Baghel/Pharma-sales.git pharmasales-insight
 cd pharmasales-insight
 
 # 2. Create a virtual environment and install the pinned dependencies
@@ -48,12 +48,17 @@ python src/validate_data.py
 streamlit run src/dashboard.py
 ```
 
-Regenerate the data (optional). This produces exactly the same files, because the random seeds are
-fixed:
+Regenerate the data (optional). Because the random seeds are fixed, this produces exactly the same
+data:
 
 ```bash
 python src/generate_data.py
 ```
+
+The CSV files come out byte-identical. Git may still show `data/pharma_sales.db` as modified,
+because SQLite stores internal bookkeeping bytes in the file. Its tables and rows are the same; you
+can confirm this with `sqlite3 data/pharma_sales.db .dump`. Run `git checkout data/pharma_sales.db`
+to discard the change.
 
 Run all the checks:
 
